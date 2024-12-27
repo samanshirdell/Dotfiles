@@ -1,0 +1,124 @@
+@define-color mauve  #f5f5f5;
+@define-color red  #f5f5f5;
+@define-color lavender  #999999;
+@define-color text  #999999;
+
+* {
+    font-family: 'CodeNewRoman Nerd Font Mono', monospace;
+    font-size: 17px;
+    outline: none;
+}
+
+/* Window */
+window {
+    padding: 20px;
+    border: 0.1em solid @lavender;
+    border-radius: 0.5em;
+    background-color: rgba(35,35,30,.92);
+    animation: fadeIn .3s ease-in-out;
+}
+
+/* Slide In */
+@keyframes slideIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Inner Box */
+#inner-box {
+    margin: 5px;
+    padding: 5px;
+    border: none;
+    background-color: @base;
+    animation: fadeIn .5s ease-in-out;
+}
+
+/* Fade In */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Outer Box */
+#outer-box {
+    border: none
+    background-color: @base;
+}
+
+/* Scroll */
+#scroll {
+    margin: 0px;
+    padding: 30px;
+    border: none;
+    background-color: @base;
+    animation: fadeIn .8s ease-in-out;
+}
+
+/* Input */
+#input {
+    margin: 5px 20px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    color: @text;
+    background-color: @base;
+    animation: fadeIn 1s ease-in-out;
+}
+
+#input image {
+    border: none;
+    color: @red;
+    outline: none;
+}
+
+#input * {
+    border: none;
+    outline: none;
+}
+#input:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+
+#text {
+    margin: 5px;
+    border: none;
+    color: @text;
+    outline: none;
+}
+
+/* Entry */
+#entry {
+    background-color: @base;
+    border: none;
+}
+
+#entry arrow {
+    border: none;
+    color: @lavender;
+}
+
+/* Selected Entry */
+#entry:selected {
+    border: 0.1em solid @lavender;
+    border-radius: .5em;
+}
+
+#entry:selected #text {
+    color: @mauve;
+}
+
+#entry:drop(active) {
+    background-color: @lavender !important;
+    animation: fadeIn 1s ease-in-out;
+}
+

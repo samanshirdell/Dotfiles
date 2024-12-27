@@ -6,6 +6,7 @@ eval "$(starship init bash)"
 [[ $- != *i* ]] && return
 
 alias ls='ls --color=auto'
+alias pacup='sudo pacman -Rns $(pacman -Qdtq)'
 alias grep='grep --color=auto'
 alias pool='clear && asciiquarium'
 alias f='clear && nerdfetch'
@@ -15,8 +16,9 @@ alias h='dbus-launch Hyprland'
 alias fonts='fc-list -f "%{family}\n"'
 alias hypr='cd ~/.config/hypr/'
 alias tasks='bpytop'
+
 export XDG_CURRENT_DESKTOP=Hyprland
 export NVM_DIR="$HOME/.nvm"
+
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
-alias eww='./eww'
 PS1='[\u@\h \W]\$ '
