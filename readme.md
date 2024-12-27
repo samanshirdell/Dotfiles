@@ -1,6 +1,8 @@
-# Things To Download
-
-'''txt
+# Eli Fouts Dotfiles
+This countains My **Arch** Linux Dotfiles for a clean looking lightweight settup.
+## Things To Download
+Using **Pacman** and **Yay** you can download the packages below.
+```txt
 git
 swaylock-effects-git
 wlogout
@@ -26,4 +28,4 @@ gnome-network-displays
 discord
 firefox
 spotify
-'''
+```
