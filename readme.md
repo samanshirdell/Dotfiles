@@ -28,4 +28,5 @@ gnome-network-displays
 discord
 firefox
 spotify
+pacman-contrib
 ```
