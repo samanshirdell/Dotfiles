@@ -7,17 +7,18 @@
     font-family: 'CodeNewRoman Nerd Font Mono', monospace;
     font-size: 17px;
     outline: none;
+    border: none;
 }
 
-/* Window */
 window {
+    all:unset;
     padding: 20px;
     border: 0.1em solid @lavender;
-    border-radius: 0.5em;
-    background-color: rgba(35,35,30,.92);
-    animation: fadeIn .3s ease-in-out;
+    border-radius: 10px;
+    background-color: rgba(50,50,50,.5);
+    animation: fadeIn .5s ease-in-out;
+    margin:5;
 }
-
 /* Slide In */
 @keyframes slideIn {
     0% {
@@ -30,25 +31,30 @@ window {
 
 /* Inner Box */
 #inner-box {
-    margin: 5px;
+    margin: 2px;
     padding: 5px;
     border: none;
     background-color: @base;
-    animation: fadeIn .5s ease-in-out;
+    animation: slideIn 1s ease-in-out;
+
 }
 
 /* Fade In */
-@keyframes fadeIn {
+@keyframes fadeIn{
     0% {
-        opacity: 0;
+        border-radius: 100px;
     }
     100% {
-        opacity: 1;
+        border-radius: 10px;
     }
 }
 
+
+
+
 /* Outer Box */
-#outer-box {
+#outer-box {    
+    border-radius: .5em;
     border: none
     background-color: @base;
 }
@@ -64,13 +70,18 @@ window {
 
 /* Input */
 #input {
-    margin: 5px 20px;
-    padding: 10px;
+    all:unset;
+    margin-left:20px;
+    margin-right:20px;
+    margin-top:20px;
+    padding: 20px;
     border: none;
     outline: none;
     color: @text;
     background-color: @base;
-    animation: fadeIn 1s ease-in-out;
+    animation: slideIn 1s ease-in-out;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, .2);
+    border-radius:10;
 }
 
 #input image {
@@ -80,13 +91,14 @@ window {
 }
 
 #input * {
-    border: none;
+    border: none;    border: none;
     outline: none;
 }
 #input:focus {
     outline: none;
     border: none;
-    box-shadow: none;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, .2);
+    border-radius:10;
 }
 
 #text {
@@ -109,8 +121,9 @@ window {
 
 /* Selected Entry */
 #entry:selected {
-    border: 0.1em solid @lavender;
-    border-radius: .5em;
+    box-shadow: 1px 1px 5px rgba(255,255,255, .03);
+    border: none;
+    border-radius:20;
 }
 
 #entry:selected #text {

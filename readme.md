@@ -1,7 +1,7 @@
 # Eli Fouts Dotfiles
 This countains My **Arch** Linux Dotfiles for a clean looking lightweight settup.
 ## Things To Download
-Using **Pacman** and **Yay** you can download the packages below.
+Using **Pacman**, **Git** and **Yay** you can download the packages below.
 ```txt
 git
 swaylock-effects-git
@@ -29,4 +29,5 @@ discord
 firefox
 spotify
 pacman-contrib
+swaync
 ```
