@@ -12,6 +12,7 @@ hyprpaper
 hyprpicker
 hypridle
 hyprlock
+hyprshot
 code
 bpytop
 nerdfetch
