@@ -4,13 +4,14 @@ This countains My **Arch** Linux Dotfiles for a clean looking lightweight **Hypr
 Using **Pacman**, **Git** and **Yay** you can download the packages below.
 ```txt
 git
-swaylock-effects-git
 wlogout
 nvim
 zip unzip
 pipewire
 hyprpaper
 hyprpicker
+hypridle
+hyprlock
 code
 bpytop
 nerdfetch
@@ -30,4 +31,6 @@ firefox
 spotify
 pacman-contrib
 swaync
+pywal
+waybar
 ```
