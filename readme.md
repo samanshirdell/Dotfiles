@@ -25,7 +25,7 @@ I configured the worspaces so that if there is content on a workspace, the dont 
   networkmanager
   swaync
   yay
-  ```Add `exec-once = waybar` to your `hyprland.conf`
+  ``` Add `exec-once = waybar` to your `hyprland.conf`
 ---
   At the top of `waybar` `style.css` change the hostname to yours in the file path to the `pywal` colors.
 
