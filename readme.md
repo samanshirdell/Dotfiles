@@ -9,7 +9,7 @@ https://github.com/user-attachments/assets/6e81f77d-a115-4180-a032-7903d4d7193a
 
 <details>
   <summary>Waybar</summary>
-  This is my Waybar Solution for clean, minimal settup for hyprland. it contains everything I wanted from waybar. as for other needs/wants like volume control im using `swaync` which i open from waybar. To add the `Blur` to waybar please see below.
+  ##### This is my Waybar Solution for clean, minimal settup for hyprland. it contains everything I wanted from waybar. as for other needs/wants like volume control im using `swaync` which i open from waybar. To add the `Blur` to waybar please see below.
   ![Waybar Screenshot](https://github.com/user-attachments/assets/10bbbd4b-08f3-475b-900d-ed6387c7f976) 
   ## Worspaces
   I configured the worspaces so that if there is content on a workspace, the dont will be darker. this is so you can keep track of the content you have open and where tf it is!! 
