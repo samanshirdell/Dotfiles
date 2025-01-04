@@ -8,7 +8,6 @@ wlogout
 nvim
 zip unzip
 pipewire
-hyprpaper
 hyprpicker
 hypridle
 hyprlock
@@ -34,4 +33,5 @@ pacman-contrib
 swaync
 pywal
 waybar
+swww
 ```
