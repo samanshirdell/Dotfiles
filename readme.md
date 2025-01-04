@@ -30,7 +30,7 @@ https://github.com/user-attachments/assets/6e81f77d-a115-4180-a032-7903d4d7193a
   swaync
   yay
   ``` 
-  ### Things to add to `hyprland`
+  ### Things to add to `hyprland.conf`
   ```
   exec-once = waybar
   ```
