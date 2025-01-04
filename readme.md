@@ -1,4 +1,4 @@
-# Whiteshadows Dotfiles
+# Whiteshadow's Dotfiles
 This countains My **Arch** Linux Dotfiles for a clean looking lightweight **Hyprland** settup.
 
 ***ENJOY!!***
@@ -186,53 +186,75 @@ This countains My **Arch** Linux Dotfiles for a clean looking lightweight **Hypr
   
 </details>
 
+# Hyprland Help
+
+<details>
+  <summary>Apps Fuzzy or Blurry?</summary>
+  
+  #### This may be because they need to be run with Wayland or are Electron Aplications
+  
+  - The solution I found is to add the following to `/usr/share/applications/{app}.desktop` after `exec=/app/executable/app`
+  - Works on `Spotify` `Discord`
+  
+  ```
+  --enable-features=UseOzonePlatform --ozone-platform=wayland --uri=%U
+  ```
+
+  - ***NOTE*** This gets removed if the app is redownloaded! Im not sure how to make this a global thing. I have tried and failed. Help?
+
+</details>
+
+# Notes
+<details>
+  <summary>My Download Suggestions</summary>
+  
+  - This is everything I think is essential to have. At least for me. I would suggest doing your own research before blindly downloading everything here. This is here just so if I break my computer which we all know I will, I can remember what all I need/want!
+    
+  ```txt
+  git
+  wlogout
+  nvim
+  zip unzip
+  pipewire
+  hyprpicker
+  hypridle
+  hyprlock
+  hyprshot
+  code
+  bpytop
+  nerdfetch
+  yay
+  wl-clipboard
+  wl-copy
+  nerd-fonts
+  starship
+  thunar
+  grim
+  slurp
+  gradience
+  gnome-network-displays
+  discord
+  firefox
+  spotify
+  pacman-contrib
+  swaync
+  pywal
+  waybar
+  swww
+  blueman
+  bluez
+  networkmanager
+  gvfs
+  libnotify
+  ```
+  
+  Fun to have
+  
+  ```
+  asciiquarium
+  libcaca
+  cowsay
+  ```
+</details>
 
 See other peoples Configs [Link to Discussion](https://github.com/elifouts/Dotfiles/discussions/1)
-
-
-Fun to have
-```
-asciiquarium
-libcaca
-cowsay
-```
-
-everything I think is essential to have. At least for me. I would suggest doing your own research before blindly downloading everything here.
-```txt
-git
-wlogout
-nvim
-zip unzip
-pipewire
-hyprpicker
-hypridle
-hyprlock
-hyprshot
-code
-bpytop
-nerdfetch
-asciiquarium
-yay
-wl-clipboard
-wl-copy
-nerd-fonts
-starship
-thunar
-grim
-slurp
-gradience
-gnome-network-displays
-discord
-firefox
-spotify
-pacman-contrib
-swaync
-pywal
-waybar
-swww
-blueman
-bluez
-networkmanager
-gvfs
-libnotify
-```
