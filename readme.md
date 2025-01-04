@@ -1,5 +1,5 @@
 # Whiteshadows Dotfiles (NOT FINISHED WRITING README! TOOK A BREAK)
-Hi. This countains My **Arch** Linux Dotfiles for a clean looking lightweight **Hyprland** settup. I have added as mich info on this page as I can to help you set up hyprland on arch. Not only does this contain my Dotfiles but is also a way for me and others to come back to and use as documentation for certain things. This started mainly because I break my computer alot LOL. Please see below for some detailes on the configurations I have and 
+Hi. This countains My **Arch** Linux Dotfiles for a clean looking lightweight **Hyprland** settup. I started with an empty clean Arch install with hyprland. I have added as mich info on this page as I can to help you set up hyprland on arch. Not only does this contain my Dotfiles but is also a way for me and others to come back to and use as documentation for certain things. This started mainly because I break my computer alot LOL. Please see below for some detailes on the configurations I have and 
 
 ENJOY!!
 
