@@ -31,8 +31,10 @@ https://github.com/user-attachments/assets/6e81f77d-a115-4180-a032-7903d4d7193a
   yay
   ``` 
   ### Things to add to `hyprland`
-  ```exec-once = waybar```
-  ### Blur
+  ```
+  exec-once = waybar
+  ```
+  #### Blur
   ```
   Coming Soon
   ```
