@@ -231,7 +231,6 @@ This countains My **Arch** Linux Dotfiles for a clean looking lightweight **Hypr
   thunar
   grim
   slurp
-  gradience
   gnome-network-displays
   discord
   firefox
@@ -246,6 +245,10 @@ This countains My **Arch** Linux Dotfiles for a clean looking lightweight **Hypr
   networkmanager
   gvfs
   libnotify
+  pavucontrol
+  pipewire-pulse
+  nwg-look
+  wofi
   ```
   
   Fun to have
