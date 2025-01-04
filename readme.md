@@ -58,7 +58,8 @@ https://github.com/user-attachments/assets/6e81f77d-a115-4180-a032-7903d4d7193a
 
 
 
-
+## Things to Note
+At the top of waybar swaync and wofi stype.css change the hostname to yours in the file path to the pywal colors.
 
 
 
