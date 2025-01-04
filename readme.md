@@ -9,13 +9,13 @@ https://github.com/user-attachments/assets/6e81f77d-a115-4180-a032-7903d4d7193a
 
 <details>
   <summary>Waybar</summary>
-  
+ This is my Waybar Solution for clean, minimal settup for hyprland. it contains everything I wanted from waybar. as for other needs/wants like volume control im using `swaync` which i open from waybar. To add the `Blur` to waybar please see below.
   ![Waybar Screenshot](https://github.com/user-attachments/assets/10bbbd4b-08f3-475b-900d-ed6387c7f976) 
-
-  ![2025-01-04-030026_hyprshot](https://github.com/user-attachments/assets/31668572-b35d-4acb-8525-8cb0e5669101)
   ## Worspaces
   I configured the worspaces so that if there is content on a workspace, the dont will be darker. this is so you can keep track of the content you have open and where tf it is!! 
-
+  ![2025-01-04-030026_hyprshot](https://github.com/user-attachments/assets/31668572-b35d-4acb-8525-8cb0e5669101)
+## Expanding waybar
+   I have added this grouping so that you can make your waybr as clean as possible but still have all the things yoy need.
   ![2025-01-04-030055_hyprshot](https://github.com/user-attachments/assets/6d8b334b-6b9d-4d0c-b208-dbd52f262d1d)
   ### Dependancies for `Waybar`
   ```
@@ -28,8 +28,12 @@ https://github.com/user-attachments/assets/6e81f77d-a115-4180-a032-7903d4d7193a
   swaync
   yay
   ``` 
-### Start with hyprland
-Add `exec-once = waybar` to your `hyprland.conf`
+### Things to add to `hyprland`
+```exec-once = waybar```
+### Blur
+```
+Coming Soon
+``
 ### If you want to use `Pywal`
   At the top of `waybar` `style.css` change the hostname to yours in the file path to the `pywal` colors.
 
