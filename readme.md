@@ -3,23 +3,48 @@ Hi. This countains My **Arch** Linux Dotfiles for a clean looking lightweight **
 
 ENJOY!!
 
-https://github.com/user-attachments/assets/6e81f77d-a115-4180-a032-7903d4d7193a
-
-
-
 <details>
+  <summary>Video</summary>
+  
+  https://github.com/user-attachments/assets/6e81f77d-a115-4180-a032-7903d4d7193a
+</details>
+<details>
+  
   <summary>Waybar</summary>
   
-  ![Waybar Screenshot](https://github.com/user-attachments/assets/10bbbd4b-08f3-475b-900d-ed6387c7f976) 
+  ![2025-01-04-145834_hyprshot](https://github.com/user-attachments/assets/7268adfe-a9c2-4a31-aa64-ae5d5d3891f5)
+  ![2025-01-04-145822_hyprshot](https://github.com/user-attachments/assets/6bd7f98e-1d4a-4c82-92ba-c74a63bbb908)
+  ![2025-01-04-145806_hyprshot](https://github.com/user-attachments/assets/e3e87cf1-9435-42b0-883c-029b50744011)
+  ![2025-01-04-145742_hyprshot](https://github.com/user-attachments/assets/45cab057-3bde-462c-97b9-c3c65c98e399)
+  ![2025-01-04-150103_hyprshot](https://github.com/user-attachments/assets/1d51032d-9a1e-4098-9c5f-791e77ee8818)
+  
   ## Overview
   This is my Waybar Solution for clean, minimal settup for hyprland. it contains everything I wanted from waybar. as for other needs/wants like volume control im using `swaync` which i open from waybar. To add the `Blur` to waybar please see below.
-  ## Worspaces
-  I configured the worspaces so that if there is content on a workspace, the dont will be darker. this is so you can keep track of the content you have open and where tf it is!! 
+  ## Workspaces
+  I configured the worspaces so that if there is content on a workspace, the dot will be darker. this is so you can keep track of the content you have open!! Inspiration from [Gbar](https://github.com/scorpion-26/gBar)
+  
   ![2025-01-04-030026_hyprshot](https://github.com/user-attachments/assets/31668572-b35d-4acb-8525-8cb0e5669101)
+  
   ## Expanding waybar
-  I have added this grouping so that you can make your waybr as clean as possible but still have all the things yoy need.
-  ![2025-01-04-030055_hyprshot](https://github.com/user-attachments/assets/6d8b334b-6b9d-4d0c-b208-dbd52f262d1d)
-  ### Dependancies for `Waybar`
+  
+  See below screenshot. I have included a way for you to be abloe to hide and reveal certain widgets that you dont necessarily need all the time. you can add and remove widgets in `~/.config/waybar/config` under `group/expand`
+  
+ - Network Widget
+    - I configured the Network widget so that it doesnt display your IP. That was default for some reason??
+    - The network widget opens to nmtui in kitty
+ - Hyprpicker Widget
+    - This is the only custom widget I have. it allows you to use hyprpicker, displays the vallues when hovered over, and coppies the hex value to your clipboard.
+    
+    ![image](https://github.com/user-attachments/assets/f8c723c0-a9c9-4fa6-a3c8-bda06e81f81d)
+
+
+  ## Configuration
+  
+  ### *How To Install*
+  - Install [Waybar](https://github.com/Alexays/Waybar)
+  - Copy the waybar folder into `~/.config`
+
+  ### Dependancies
   ```
   waybar
   hyprpicker
@@ -29,36 +54,102 @@ https://github.com/user-attachments/assets/6e81f77d-a115-4180-a032-7903d4d7193a
   networkmanager
   swaync
   yay
-  ``` 
-  ### Things to add to `hyprland.conf`
+  ```
+
+  ### How to launch on startup
+  - Add this to your `hyprland.config`
   ```
   exec-once = waybar
   ```
-  #### Blur
+  ### How to add Blur
+
+  - Add this to the end of your `hyprland.conf`
+  
   ```
-  Coming Soon
+  layerrule = blur, waybar
+  layerrule = ignorezero, waybar
+  layerrule = ignorealpha 0.5, waybar
   ```
   ### If you want to use `Pywal`
-  At the top of `waybar` `style.css` change the hostname to yours in the file path to the `pywal` colors.
+  At the top of `~/.config/waybar/style.css` change the hostname to yours in the file path to the `pywal` colors.
 </details>
 
 
 <details>
   <summary>Wofi</summary>
-  <img src="https://github.com/user-attachments/assets/ee3cddb2-3a8f-441c-bbb3-ef7970fe5836" width = "40%">
+    <img src="https://github.com/user-attachments/assets/fc926214-960a-4ff6-a6b2-e87856b2d8c8" width = "30%">
+    <img src="https://github.com/user-attachments/assets/f9f9235c-9b21-44d3-8b81-a05ee3c379c6" width = "30%">
+    <img src="https://github.com/user-attachments/assets/9e60e74a-5fa0-4496-a66a-607f5d16ee13" width = "30%">
 
+
+  ## Configuration
+
+  ### *How To Install*
+  - Install Wofi
+    - `Sudo Pacman -S wofi`
+  - Copy the wofi folder into `~/.config`
+
+  ### Dependancies
+  ```
+  Wofi
+  Pywal
+  ```
+
+  ### How to add Blur to Wofi
+
+  - Add this to the end of your `hyprland.conf`
+
+  ```
+  layerrule = blur, wofi
+  layerrule = ignorezero, wofi
+  layerrule = ignorealpha 0.5, wofi
+  ```
+  ### If you want to use `Pywal` with Wofi
+  At the top of `~/.config/wofi/style.css` change the hostname to yours in the file path to the `pywal` colors.
 </details>
-
 <details>
   <summary>Swaync</summary>
-  <img src="https://github.com/user-attachments/assets/aa98078f-6a12-43ed-98c2-e73382523ba7" width = "40%">
+  <img src="https://github.com/user-attachments/assets/f00c5396-a3ef-43b0-865b-19921f109f8e" width = "20%">
+  <img src="https://github.com/user-attachments/assets/e360ef69-315a-49cb-a8b0-63fa00846ec4" width = "20%">
+  <img src="https://github.com/user-attachments/assets/7c377580-eeed-4c87-8b57-46cb22269098" width = "20%">
+  
+  ## Configuration
+  
+  ### *How To Install*
+  - Install [Swaync](https://github.com/ErikReider/SwayNotificationCenter)
+  - Copy the Swaync folder into `~/.config`
+
+  ### Dependancies for `Swaync`
+  ```
+  swaync
+  pywal
+  gvfs
+  libnotify
+  ```
+  
+  - Copy the Swaync folder into `~/.config`
+  
+  ### How to add Blur to Swaync
+  
+  - Add this to the end of your `hyprland.conf`
+  
+  ```
+  layerrule = blur, swaync-control-center
+  layerrule = blur, swaync-notification-window
+  layerrule = ignorezero, swaync-control-center
+  layerrule = ignorezero, swaync-notification-window
+  layerrule = ignorealpha 0.5, swaync-control-center
+  layerrule = ignorealpha 0.5, swaync-notification-window
+  ```
+
+  ### If you want to use `Pywal` with Swaync
+  At the top of `~/.config/Swaync/style.css` change the hostname to yours in the file path to the `pywal` colors.
 
 </details>
 
 <details>
   <summary>Hyprlock</summary>
   <img src="https://github.com/user-attachments/assets/4b0b89b2-b2bc-4078-9dfb-f68ae0dd8169" width = "60%">
-
 </details>
 
 <details>
@@ -69,58 +160,27 @@ https://github.com/user-attachments/assets/6e81f77d-a115-4180-a032-7903d4d7193a
 <details>
   <summary>Wlogout</summary>
   <img src="https://github.com/user-attachments/assets/414e835d-0dce-44ff-9442-8245b86ba592" width = "60%">
+</details>
 
+
+<details>
+  <summary>My Wallpaper Solution</summary>
+  
+  Dependancies for `.config/hypr/wallpaper.sh`
+  
+  ```
+  swww
+  pywal
+  ```
+
+  Make sure to add `exec-once = swww-daemon` to your `hyprland.conf`
+  
 </details>
 
 
 See other peoples Configs [Link to Discussion](https://github.com/elifouts/Dotfiles/discussions/1)
 
 
-
-
-
-
-
-
-## Things to Note
-At the top of `waybar` `swaync` and `wofi` `style.css` change the hostname to yours in the file path to the `pywal` colors.
-
-
-
-
-Dependancies for `Swaync`
-```
-swaync
-pywal
-gvfs
-libnotify
-```
-
-Dependancies for `.config/hypr/wallpaper.sh`
-```
-swww
-pywal
-```
-Make sure to add ``exec-once = swww-daemon`` to your `hyprland.conf`
-
-Nice to have
-```
-git
-zip unzip
-pipewire
-hyprshot
-code
-bpytop
-nerdfetch
-yay
-wl-clipboard
-wl-copy
-nerd-fonts
-starship
-grim
-slurp
-gnome-network-displays
-```
 Fun to have
 ```
 asciiquarium
