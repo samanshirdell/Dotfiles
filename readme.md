@@ -14,7 +14,17 @@ https://github.com/user-attachments/assets/6e81f77d-a115-4180-a032-7903d4d7193a
   ![Waybar Screenshot](https://github.com/user-attachments/assets/10bbbd4b-08f3-475b-900d-ed6387c7f976)
   ![2025-01-04-030026_hyprshot](https://github.com/user-attachments/assets/31668572-b35d-4acb-8525-8cb0e5669101)
   ![2025-01-04-030055_hyprshot](https://github.com/user-attachments/assets/6d8b334b-6b9d-4d0c-b208-dbd52f262d1d)
-
+  ### Dependancies for `Waybar`
+  ```
+  waybar
+  hyprpicker
+  pywal
+  blueman
+  bluez
+  networkmanager
+  swaync
+  yay
+  ```
 
 </details>
 
@@ -59,13 +69,52 @@ See other peoples Configs [Link to Discussion](https://github.com/elifouts/Dotfi
 
 
 ## Things to Note
-At the top of waybar swaync and wofi style.css change the hostname to yours in the file path to the pywal colors.
+At the top of `waybar` `swaync` and `wofi` `style.css` change the hostname to yours in the file path to the `pywal` colors.
 
 
 
 
-## Things To Download
-Using **Pacman**, **Git** and **Yay** you can download the packages below.
+Dependancies for `Swaync`
+```
+swaync
+pywal
+gvfs
+libnotify
+```
+
+Dependancies for `.config/hypr/wallpaper.sh`
+```
+swww
+pywal
+```
+Make sure to add ``exec-once = swww-daemon`` to your `hyprland.conf`
+
+Nice to have
+```
+git
+zip unzip
+pipewire
+hyprshot
+code
+bpytop
+nerdfetch
+yay
+wl-clipboard
+wl-copy
+nerd-fonts
+starship
+grim
+slurp
+gnome-network-displays
+```
+Fun to have
+```
+asciiquarium
+libcaca
+cowsay
+```
+
+everything I think is essential to have. At least for me. I would suggest doing your own research before blindly downloading everything here.
 ```txt
 git
 wlogout
@@ -98,4 +147,9 @@ swaync
 pywal
 waybar
 swww
+blueman
+bluez
+networkmanager
+gvfs
+libnotify
 ```
