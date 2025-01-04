@@ -1,5 +1,6 @@
 # ~/.bashrc
 eval "$(starship init bash)"
+clear && nerdfetch
 [[ $- != *i* ]] && return
 alias ls='ls --color=auto'
 alias pacup='sudo pacman -Rns $(pacman -Qdtq)'
