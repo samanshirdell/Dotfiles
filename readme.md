@@ -1,10 +1,9 @@
 # Whiteshadows Dotfiles (NOT FINISHED WRITING README! TOOK A BREAK)
-Hi. This countains My **Arch** Linux Dotfiles for a clean looking lightweight **Hyprland** settup. I started with an empty clean Arch install with hyprland. I have added as mich info on this page as I can to help you set up hyprland on arch. Not only does this contain my Dotfiles but is also a way for me and others to come back to and use as documentation for certain things. This started mainly because I break my computer alot LOL. Please see below for some detailes on the configurations I have and 
+Hi. This countains My **Arch** Linux Dotfiles for a clean looking lightweight **Hyprland** settup. I started with an empty clean Arch install with hyprland. I have added as mich info on this page as I can to help you set up hyprland on arch. Not only does this contain my Dotfiles but is also a way for me and others to come back to and use as documentation for certain things. This started mainly because I break my computer alot LOL. Please see below for some detailes on the configurations.
 
 ENJOY!!
 
 https://github.com/user-attachments/assets/6e81f77d-a115-4180-a032-7903d4d7193a
-
 
 
 
@@ -25,6 +24,7 @@ https://github.com/user-attachments/assets/6e81f77d-a115-4180-a032-7903d4d7193a
   swaync
   yay
   ```
+  Add `exec-once=waybar` to your `hyprland.conf`
 
 </details>
 
