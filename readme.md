@@ -268,7 +268,7 @@ In `~/.config/wofi/style.css`, update the hostname in the file path to your `pyw
 
 # Notes
 
-I still need to add more on wallpaper.sh pywal wlogout and a couple other stuff sorry! 
+I still need to add more on wlogout and a couple other stuff sorry! 
 <details>
   <summary>📥 Download Suggestions</summary>
   
