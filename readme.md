@@ -65,11 +65,6 @@ This countains My **Arch** Linux Dotfiles for a clean looking lightweight **Hypr
   yay
   ```
 
-  ### How to launch on startup
-  - Add this to your `hyprland.config`
-  ```
-  exec-once = waybar
-  ```
   ### How to add Blur
 
   - Add this to the end of your `hyprland.conf`
