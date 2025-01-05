@@ -41,17 +41,17 @@ This countains My **Arch** Linux Dotfiles for a clean looking lightweight **Hypr
  - Network Widget
     - I configured the Network widget so that it doesnt display your IP. That was default for some reason??
     - The network widget opens to nmtui in kitty
+
  - Hyprpicker Widget
     - This is the only custom widget I have. it allows you to use hyprpicker, displays the vallues when hovered over, and coppies the hex value to your clipboard.
     
     ![image](https://github.com/user-attachments/assets/f8c723c0-a9c9-4fa6-a3c8-bda06e81f81d)
 
-
   ## Configuration
   
   ### *How To Install*
   - Install [Waybar](https://github.com/Alexays/Waybar)
-  - Copy the waybar folder into `~/.config`
+  - Copy `Dotfiles/.config/waybar` folder into `~/.config`
 
   ### Dependancies
   ```
@@ -79,24 +79,23 @@ This countains My **Arch** Linux Dotfiles for a clean looking lightweight **Hypr
   layerrule = ignorezero, waybar
   layerrule = ignorealpha 0.5, waybar
   ```
-  ### If you want to use `Pywal`
+  ### If you want to use `Pywal` with Waybar
+  
   At the top of `~/.config/waybar/style.css` change the hostname to yours in the file path to the `pywal` colors.
 </details>
 
 
 <details>
   <summary>Wofi</summary>
-    <img src="https://github.com/user-attachments/assets/fc926214-960a-4ff6-a6b2-e87856b2d8c8" width = "30%">
-    <img src="https://github.com/user-attachments/assets/f9f9235c-9b21-44d3-8b81-a05ee3c379c6" width = "30%">
-    <img src="https://github.com/user-attachments/assets/9e60e74a-5fa0-4496-a66a-607f5d16ee13" width = "30%">
-
+    <img src="https://github.com/user-attachments/assets/fc926214-960a-4ff6-a6b2-e87856b2d8c8" width = "30%"><img src="https://github.com/user-attachments/assets/f9f9235c-9b21-44d3-8b81-a05ee3c379c6" width = "30%"><img src="https://github.com/user-attachments/assets/9e60e74a-5fa0-4496-a66a-607f5d16ee13" width = "30%">
 
   ## Configuration
 
   ### *How To Install*
+  
   - Install Wofi
     - `Sudo Pacman -S wofi`
-  - Copy the wofi folder into `~/.config`
+  - Copy `Dotfiles/.config/wofi` folder into `~/.config`
 
   ### Dependancies
   ```
@@ -114,19 +113,21 @@ This countains My **Arch** Linux Dotfiles for a clean looking lightweight **Hypr
   layerrule = ignorealpha 0.5, wofi
   ```
   ### If you want to use `Pywal` with Wofi
+  
   At the top of `~/.config/wofi/style.css` change the hostname to yours in the file path to the `pywal` colors.
+  
 </details>
+
 <details>
   <summary>Swaync</summary>
-  <img src="https://github.com/user-attachments/assets/f00c5396-a3ef-43b0-865b-19921f109f8e" width = "20%">
-  <img src="https://github.com/user-attachments/assets/e360ef69-315a-49cb-a8b0-63fa00846ec4" width = "20%">
-  <img src="https://github.com/user-attachments/assets/7c377580-eeed-4c87-8b57-46cb22269098" width = "20%">
+  <img src="https://github.com/user-attachments/assets/f00c5396-a3ef-43b0-865b-19921f109f8e" width = "20%"><img src="https://github.com/user-attachments/assets/e360ef69-315a-49cb-a8b0-63fa00846ec4" width = "20%"><img src="https://github.com/user-attachments/assets/7c377580-eeed-4c87-8b57-46cb22269098" width = "20%">
   
   ## Configuration
   
   ### *How To Install*
+  
   - Install [Swaync](https://github.com/ErikReider/SwayNotificationCenter)
-  - Copy the Swaync folder into `~/.config`
+  - Copy `Dotfiles/.config/swaync` folder into `~/.config`
 
   ### Dependancies for `Swaync`
   ```
@@ -152,18 +153,55 @@ This countains My **Arch** Linux Dotfiles for a clean looking lightweight **Hypr
   ```
 
   ### If you want to use `Pywal` with Swaync
+  
   At the top of `~/.config/Swaync/style.css` change the hostname to yours in the file path to the `pywal` colors.
 
 </details>
 
 <details>
   <summary>Hyprlock</summary>
-  <img src="https://github.com/user-attachments/assets/4b0b89b2-b2bc-4078-9dfb-f68ae0dd8169" width = "60%">
+  <img src="https://github.com/user-attachments/assets/60ebf6f9-e61c-47b6-ac86-4b4913136d17" width = "50%"><img src="https://github.com/user-attachments/assets/d1895be0-07b6-4cd5-a76a-1d9229a6cdeb" width = "50%"><img src="https://github.com/user-attachments/assets/e351078e-7987-4852-8817-82e674dabecb" width = "50%"><img src="https://github.com/user-attachments/assets/34c7c658-ac72-4791-93ba-c61982716004" width = "50%">
+  
+  ## Overview
+  
+  - This uses the current wallpaper in pywal to generate a background, uses $USER to say hello, and uses pywal colors.
+  - You can add hyprlock to a keybind, hypridle, or something else.
+  - If you want to configure hypridle as well, I have included hypridle.conf in the same directoy as hyprlock for you to use.
+
+  ## Configuration
+  
+  ### *How To Install*
+  
+  - Install [Hyprlock](https://github.com/hyprwm/hyprlock/)
+  - Copy `Dotfiles/.config/hypr/hyprlock.conf` file into `~/.config/hypr`
+  - Make sure you have Pywal installed
+
 </details>
 
 <details>
   <summary>Nvim</summary>
-  <img src="https://github.com/user-attachments/assets/31bace86-a486-4b96-9fa9-9369d2dfd99c" width = "60%">
+  <img src="https://github.com/user-attachments/assets/cafccd0f-29a3-452d-b6d5-f4ad8851405d" width = "40%"><img src="https://github.com/user-attachments/assets/e726a46b-6e5c-47e3-a0a6-14b81a1139de" width = "40%"><img src="https://github.com/user-attachments/assets/0434d623-118d-4cba-8bf6-1326550a8010" width = "40%"><img src="https://github.com/user-attachments/assets/9a18a6e5-57e4-4aeb-aea0-5c2b9209182c" width = "40%">
+  
+  ## Overview
+  
+  - This Neovim "rice" is just a simplified version of Lazyvim. It uses lazy vim but every lua file is of my own creation.
+  - With this, you get all the essentials and good looks of nvim but is lightweight and doesnt really contain anything other than what you need.
+  - This configuration includes:
+      - alpha-nvim
+      - pywal theme
+      - completions
+      - lualine
+      - neo-tree
+      - telescope
+      - treesitter
+    
+  ### *How To Install*
+  
+  - Install Neovim `yay -S neovim`
+  - Copy `Dotfiles/.config/nvim` folder into `~/.config`
+  - start nvim and watch everything install.
+  - The color scheme requires Pywal
+
 </details>
 
 <details>
@@ -205,6 +243,7 @@ This countains My **Arch** Linux Dotfiles for a clean looking lightweight **Hypr
 </details>
 
 # Notes
+
 <details>
   <summary>My Download Suggestions</summary>
   
@@ -249,6 +288,7 @@ This countains My **Arch** Linux Dotfiles for a clean looking lightweight **Hypr
   pipewire-pulse
   nwg-look
   wofi
+  s-tui
   ```
   
   Fun to have
