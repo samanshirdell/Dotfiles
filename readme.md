@@ -57,6 +57,8 @@ If you do not want this, you can remove it in the Applications style.css and add
 2. **Copy config Files**
     - Copy the `Dotfiles/.config/waybar` folder into `~/.config`
 
+***NOTE*** *Make sure you have a Pywal theme set or else waybar will not load*
+
   ### Dependencies
   ```
   waybar
