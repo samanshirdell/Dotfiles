@@ -133,8 +133,6 @@ This countains My **Arch** Linux Dotfiles for a clean looking lightweight **Hypr
   libnotify
   ```
   
-  - Copy the Swaync folder into `~/.config`
-  
   ### How to add Blur to Swaync
   
   - Add this to the end of your `hyprland.conf`
