@@ -20,7 +20,6 @@ export XDG_CURRENT_DESKTOP=Hyprland
 export OZONE_PLATFORM=wayland
 export ENABLE_FEATURES=UseOzonePlatform
 export NVM_DIR="$HOME/.nvm"
-export WALLPAPER_PATH="/home/eli/wallpapers/walls/1358310.png"
+export WALLPAPER_PATH="/home/$USER/wallpapers/walls/1358310.png"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
-alias eww='./eww'
 PS1='[\u@\h \W]\$ '
