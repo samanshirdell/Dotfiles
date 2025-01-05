@@ -1,4 +1,5 @@
-# Whiteshadow's Dotfiles
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&letterSpacing=tiny&duration=2000&pause=1000&color=F7F7F7&center=true&vCenter=true&width=435&lines=Whiteshadows's+Dotfiles)](https://git.io/typing-svg)
+
 This countains My **Arch** Linux Dotfiles for a clean looking lightweight **Hyprland** settup.
 
 ***ENJOY!!***
