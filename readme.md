@@ -299,7 +299,7 @@ I still need to add more on wlogout and a couple other stuff sorry!
   gnome-network-displays
   discord
   firefox
-  spotify
+  spotify ncspot
   pacman-contrib
   swaync
   pywal
