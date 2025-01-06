@@ -325,5 +325,3 @@ I still need to add more on wlogout!!! ***sorry!***
   cowsay
   ```
 </details>
-
-See other peoples Configs [Link to Discussion](https://github.com/elifouts/Dotfiles/discussions/1)
