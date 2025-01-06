@@ -1,7 +1,8 @@
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&letterSpacing=tiny&duration=2000&pause=10000&color=F7F7F7&center=true&vCenter=true&width=435&lines=Whiteshadows's+Dotfiles)](https://git.io/typing-svg)
 
-<img src="https://github.com/user-attachments/assets/65a39575-27d4-4c93-9bce-039c3afb8ee6" width = "50%"><img src="https://github.com/user-attachments/assets/4e66d121-8d05-43d5-9d13-d7e3d72f8fa9" width = "50%"><img src="https://github.com/user-attachments/assets/a0febec2-03a3-4a4f-b79d-74d7d83ff75c" width = "50%">
+<img src="https://github.com/user-attachments/assets/65a39575-27d4-4c93-9bce-039c3afb8ee6" width = "50%"><img src="https://github.com/user-attachments/assets/4e66d121-8d05-43d5-9d13-d7e3d72f8fa9" width = "50%"><img src="https://github.com/user-attachments/assets/a0febec2-03a3-4a4f-b79d-74d7d83ff75c" width = "50%"><img src="https://github.com/user-attachments/assets/3a4c987c-4914-4d8f-862d-31289e052e3e" width = "50%">
+
 <details>
   <summary>📹 Video</summary>
   
