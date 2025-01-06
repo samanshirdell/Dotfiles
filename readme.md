@@ -268,8 +268,8 @@ In `~/.config/wofi/style.css`, update the hostname in the file path to your `pyw
 </details>
 
 # Notes
-
-I still need to add more on wlogout!!! ***sorry!*** 
+- About to start working on an ewww dashboard so look out for that
+- I still need to add more on wlogout!!! ***sorry!*** 
 <details>
   <summary>📥 Download Suggestions</summary>
   
