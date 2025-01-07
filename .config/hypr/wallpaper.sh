@@ -1,7 +1,13 @@
 #!/bin/bash
 WALLPAPER_DIR="/home/eli/wallpapers/walls"
-SPECIFIC_IMAGE=$(find "$WALLPAPER_DIR" -type f \( -iname "*.jpg" -o -iname "*.png" -o -iname "*.jpeg" \) | shuf -n 1)
-swww img "$SPECIFIC_IMAGE" --transition-type outer --transition-pos "$(hyprctl cursorpos)" --transition-fps 60 --transition-duration 1
-wal -i "$SPECIFIC_IMAGE" -not-set --cols16
+SELECTED_WALLPAPER=$(find "$WALLPAPER_DIR" -type f -exec basename {} \; | wofi -c ~/.config/wofi/config1 --show dmenu  --prompt "Select Wallpaper:")
+
+FULL_PATH=$(find "$WALLPAPER_DIR" -type f -name "$SELECTED_WALLPAPER")
+
+swww img "$FULL_PATH" --transition-type any --transition-fps 60 --transition-duration .5
+
+
+wal -i "$FULL_PATH" -n --cols16
 swaync-client --reload-css
 cat ~/.cache/wal/colors-kitty.conf > ~/.config/kitty/current-theme.conf
+pywalfox update

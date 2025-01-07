@@ -7,9 +7,12 @@
 
 * {
     font-family: 'CodeNewRoman Nerd Font Mono', monospace;
-    font-size: 17px;
+    font-size: 18px;
     outline: none;
     border: none;
+    text-shadow:none;
+    background-color:transparent;
+
 }
 
 window {
@@ -17,8 +20,6 @@ window {
     padding: 20px;
     border-radius: 10px;
     background-color: alpha(@background,.5);
-
-
 }
 /* Slide In */
 @keyframes slideIn {
@@ -35,34 +36,17 @@ window {
     margin: 2px;
     padding: 5px;
     border: none;
-    background-color: @base;
     animation: slideIn 1.5s ease-in-out;
 
 }
-
-/* Fade In */
-
-
-
-
-/* Outer Box */
 #outer-box {    
-    border-radius: .5em;
-    border: none
-    background-color: @base;
-
+    border: none;
 }
-
-/* Scroll */
 #scroll {
     margin: 0px;
     padding: 30px;
     border: none;
-    background-color: @base;
-
 }
-
-/* Input */
 #input {
     all:unset;
     margin-left:20px;
@@ -72,20 +56,17 @@ window {
     border: none;
     outline: none;
     color: @text;
-    background-color: @base;
     animation: slideIn 1s ease-in-out;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, .2);
     border-radius:10;
 }
-
 #input image {
     border: none;
     color: @red;
     outline: none;
 }
-
 #input * {
-    border: none;    border: none;
+    border: none;
     outline: none;
 }
 #input:focus {
@@ -94,38 +75,29 @@ window {
     box-shadow: 1px 1px 5px rgba(0, 0, 0, .2);
     border-radius:10;
 }
-
 #text {
     margin: 5px;
     border: none;
     color: @text;
     outline: none;
 }
-
-/* Entry */
 #entry {
-    background-color: @base;
     border: none;
 }
-
 #entry arrow {
     border: none;
     color: @lavender;
 }
-
-/* Selected Entry */
 #entry:selected {
     box-shadow: 1px 1px 5px rgba(255,255,255, .03);
     border: none;
-    border-radius:20;
+    border-radius: 20px;
+    background-color:transparent;
 }
-
 #entry:selected #text {
     color: @mauve;
 }
-
 #entry:drop(active) {
     background-color: @lavender !important;
     animation: fadeIn 1s ease-in-out;
 }
-

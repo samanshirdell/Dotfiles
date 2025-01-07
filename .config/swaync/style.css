@@ -301,7 +301,7 @@
 }
 
 .widget-buttons-grid > flowbox > flowboxchild > button.toggle:checked {
-    background: alpha(@mycolor,.5);
+    background: @mycolor;
 }
 
 .widget-menubar > box > .menu-button-bar > button {
