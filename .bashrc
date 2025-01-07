@@ -16,10 +16,15 @@ alias tasks='bpytop'
 alias viruscheck='sudo clamscan -r /'
 alias Docs="cd ~/Documents && nvim"
 alias Settings="cd ~/.config/hypr && nvim"
+alias spot="ncspot"
 export XDG_CURRENT_DESKTOP=Hyprland
 export OZONE_PLATFORM=wayland
 export ENABLE_FEATURES=UseOzonePlatform
 export NVM_DIR="$HOME/.nvm"
-export WALLPAPER_PATH="/home/$USER/wallpapers/walls/1358310.png"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 PS1='[\u@\h \W]\$ '
+
+export PATH=$PATH:/home/eli/.spicetify
+
+# Created by `pipx` on 2025-01-06 05:43:18
+export PATH="$PATH:/home/eli/.local/bin"

@@ -321,14 +321,14 @@ trough {
 
 trough highlight {
     padding: 5px;
-    background: alpha(@mycolor,.5);
+    background: @mycolor;
     border-radius: 20px;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, .5);
     transition: all .7s ease;
 }
 trough highlight:hover {
     padding: 5px;
-    background: alpha(@mycolor,.5);
+    background: @mycolor;
     border-radius: 20px;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
     transition: all .7s ease;

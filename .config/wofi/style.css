@@ -17,7 +17,8 @@ window {
     padding: 20px;
     border-radius: 10px;
     background-color: alpha(@background,.5);
-    animation: fadeIn .5s ease-in-out;
+
+
 }
 /* Slide In */
 @keyframes slideIn {
@@ -35,19 +36,11 @@ window {
     padding: 5px;
     border: none;
     background-color: @base;
-    animation: slideIn 1s ease-in-out;
+    animation: slideIn 1.5s ease-in-out;
 
 }
 
 /* Fade In */
-@keyframes fadeIn{
-    0% {
-        border-radius: 100px;
-    }
-    100% {
-        border-radius: 10px;
-    }
-}
 
 
 
@@ -57,6 +50,7 @@ window {
     border-radius: .5em;
     border: none
     background-color: @base;
+
 }
 
 /* Scroll */
@@ -65,7 +59,7 @@ window {
     padding: 30px;
     border: none;
     background-color: @base;
-    animation: fadeIn .8s ease-in-out;
+
 }
 
 /* Input */
