@@ -315,6 +315,7 @@ In `~/.config/wofi/style.css`, update the hostname in the file path to your `pyw
   nwg-look
   wofi
   s-tui
+  pywalfox
   ```
   
   Fun to have
