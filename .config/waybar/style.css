@@ -59,18 +59,17 @@ tooltip {
     all:unset;
     padding: 0px 5px;
     color: rgba(0,0,0,0);
-    transition: all .5s ease;
-    text-shadow: 0px 0px 1px rgba(0, 0, 0, .5);
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, .4);
 }
 #workspaces button:hover {
-    transition: all .5s ease;
     color:rgba(0,0,0,0);
-    text-shadow: 0px 0px 1px rgba(0, 0, 0, .6);
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, .7);
+    transition: all 1s ease;
 }
 #workspaces button.active {
     color: @color9;
     border: none;
-    transition: all .5s ease;
+    transition: all 1s ease;
 }
 #workspaces button.empty {
     color: rgba(0,0,0,0);
@@ -81,11 +80,12 @@ tooltip {
     color: rgba(0,0,0,0);
     border: none;
     text-shadow: 0px 0px 1.5px rgba(0, 0, 0, .5);
+    transition: all 1s ease;
 }
 #workspaces button.empty.active {
     color: @color9;
     border: none;
-    transition: all .5s ease;
+    transition: all 1s ease;
 }
 #bluetooth{
     padding: 0px 5px;
