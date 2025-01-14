@@ -326,7 +326,7 @@ In `~/.config/wofi/style.css`, update the hostname in the file path to your `pyw
   cowsay
   snake
   2048
-  
+  terminal-mines mines-tui
   ```
 </details>
 
