@@ -329,3 +329,4 @@ In `~/.config/wofi/style.css`, update the hostname in the file path to your `pyw
   
   ```
 </details>
+
