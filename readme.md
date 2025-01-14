@@ -316,6 +316,8 @@ In `~/.config/wofi/style.css`, update the hostname in the file path to your `pyw
   wofi
   s-tui
   pywalfox
+  auto-cpufreq
+  powertop
   ```
   
   Fun to have
