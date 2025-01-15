@@ -11,20 +11,10 @@ alias bye='sudo shutdown -h now'
 alias loop='sudo reboot'
 alias h='dbus-launch Hyprland'
 alias fonts='fc-list -f "%{family}\n"'
-alias hypr='cd ~/.config/hypr/'
 alias tasks='bpytop'
-alias viruscheck='sudo clamscan -r /'
 alias Docs="cd ~/Documents && nvim"
 alias Settings="cd ~/.config/hypr && nvim"
 alias spot="ncspot"
-export XDG_CURRENT_DESKTOP=Hyprland
-export OZONE_PLATFORM=wayland
-export ENABLE_FEATURES=UseOzonePlatform
 export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 PS1='[\u@\h \W]\$ '
-
-export PATH=$PATH:/home/eli/.spicetify
-
-# Created by `pipx` on 2025-01-06 05:43:18
-export PATH="$PATH:/home/eli/.local/bin"

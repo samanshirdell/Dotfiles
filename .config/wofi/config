@@ -1,7 +1,8 @@
 [config]
 allow_images=true
-show=drun
 width=500
+show=drun
+prompt=Search
 height=400
 always_parse_args=true
 show_all=true
