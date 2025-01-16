@@ -15,6 +15,7 @@ alias tasks='bpytop'
 alias Docs="cd ~/Documents && nvim"
 alias Settings="cd ~/.config/hypr && nvim"
 alias spot="ncspot"
+alias untar="tar -xf"
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 PS1='[\u@\h \W]\$ '

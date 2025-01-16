@@ -310,7 +310,7 @@ In `~/.config/wofi/style.css`, update the hostname in the file path to your `pyw
   networkmanager
   gvfs
   libnotify
-  pavucontrol
+  pavucontrolfdf
   pipewire-pulse
   nwg-look
   wofi
@@ -318,6 +318,8 @@ In `~/.config/wofi/style.css`, update the hostname in the file path to your `pyw
   pywalfox
   auto-cpufreq
   powertop
+  qogir-icon-theme
+  fd
   ```
   
   Fun to have

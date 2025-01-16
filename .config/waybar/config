@@ -60,7 +60,7 @@
             "on-click-right": "blueman-manager",
         }, 
         "battery": {
-            "interval":10,
+            "interval":30,
             "states": {
                 "good": 95,
                 "warning": 30,
@@ -81,7 +81,7 @@
         },
         "custom/pacman": {
             "format": "󰅢 {}",
-            "interval": 600,   
+            "interval": 1800,   
             "exec": "checkupdates | wc -l",
             "exec-if": "exit 0",
             "on-click": "kitty sh -c 'yay; sudo pacman -Syu; echo Done - Press enter to exit; read'; pkill -SIGRTMIN+8 waybar",

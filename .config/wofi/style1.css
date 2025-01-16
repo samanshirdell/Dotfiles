@@ -3,21 +3,14 @@
 @define-color red  @color9;
 @define-color lavender  @color7;
 @define-color text  @color7;
-@keyframes fadeIn {
-    0% {
-    }
-    100% {
-    }
-}
-
 * {
+    all:unset;
     font-family: 'CodeNewRoman Nerd Font Mono', monospace;
     font-size: 18px;
     outline: none;
     border: none;
     text-shadow:none;
     background-color:transparent;
-
 }
 
 window {
@@ -55,6 +48,7 @@ window {
 #input image {
     border: none;
     color: @red;
+    padding-right:10px;
 }
 #input * {
     border: none;
@@ -74,8 +68,10 @@ window {
     outline: none;
 }
 #entry {
-    border: none;
-    margin: 5px;
+    all:unset;
+    padding-left:35px;
+    padding-top: 35px;
+
 }
 #entry arrow {
     border: none;
@@ -83,10 +79,6 @@ window {
 
 }
 #entry:selected {
-    box-shadow: 1px 1px 5px rgba(255,255,255, .03);
-    border: none;
-    border-radius: 20px;
-    background-color:transparent;
 }
 #entry:selected #text {
     color: @mauve;
