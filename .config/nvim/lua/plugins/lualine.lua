@@ -1,6 +1,6 @@
 return {
     "nvim-lualine/lualine.nvim",
-    dependencies = { "nvim-tree/nvim-web-devicons" },
+    dependencies = { "nvim-tree/nvim-web-devicons","kdheepak/tabline.nvim" },
 
     config = function()
         require('lualine').setup {
@@ -9,6 +9,7 @@ return {
                 theme = 'auto',
                 component_separators = '',
                 section_separators = { left = '', right = '' },
+                component_separators = {'', ''},
                 disabled_filetypes = {
                     statusline = {},
                     winbar = {},
@@ -25,8 +26,8 @@ return {
             },
             sections = {
                 lualine_a = {'mode'},
-                lualine_b = {'branch', 'diff', 'diagnostics'},
-                lualine_c = {'filepath','filename'},
+                lualine_b = {},
+                lualine_c = {},
                 lualine_x = {'filetype'},
                 lualine_y = {'progress'},
                 lualine_z = {'location'}
@@ -39,7 +40,14 @@ return {
                 lualine_y = {},
                 lualine_z = {}
             },
-            tabline = {},
+            tabline = {
+                lualine_a = {},
+                lualine_b = {},
+                lualine_c = { require'tabline'.tabline_buffers },
+                lualine_x = { require'tabline'.tabline_tabs },
+                lualine_y = {},
+                lualine_z = {},
+            },
             winbar = {},
             inactive_winbar = {},
             extensions = {}

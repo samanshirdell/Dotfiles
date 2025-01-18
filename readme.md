@@ -21,9 +21,6 @@ If you do not want this, you can remove it in the Applications style.css and add
 -E
 ## My Applications
 
-
-
-
 <details>
   
   <summary>🖥️ Waybar</summary>
