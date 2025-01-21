@@ -207,6 +207,7 @@ layerrule = ignorealpha 0.5, wofi
   - Telescope
   - Treesitter
   - Gitsigns
+  - Colorizer
 
 ### *How To Install*
 1. **Install `Neovim`:**
