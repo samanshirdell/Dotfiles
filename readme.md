@@ -4,6 +4,7 @@
 
 <details>
   <summary>📹 Video</summary>
+  This video is outdated!
   
   https://github.com/user-attachments/assets/6e81f77d-a115-4180-a032-7903d4d7193a
   
