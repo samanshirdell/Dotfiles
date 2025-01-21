@@ -363,6 +363,7 @@ https://github.com/user-attachments/assets/916a6edc-2d4f-4243-9b65-5ddad5272e45
   Cool things you dont need
   ```
   waypaper
+  ranger
   ```
 </details>
 
