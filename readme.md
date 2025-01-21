@@ -1,7 +1,6 @@
-
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&letterSpacing=tiny&duration=2000&pause=10000&color=F7F7F7&center=true&vCenter=true&width=435&lines=Whiteshadows's+Dotfiles)](https://git.io/typing-svg)
 
-<img src="https://github.com/user-attachments/assets/65a39575-27d4-4c93-9bce-039c3afb8ee6" width = "50%"><img src="https://github.com/user-attachments/assets/4e66d121-8d05-43d5-9d13-d7e3d72f8fa9" width = "50%"><img src="https://github.com/user-attachments/assets/a0febec2-03a3-4a4f-b79d-74d7d83ff75c" width = "50%"><img src="https://github.com/user-attachments/assets/3a4c987c-4914-4d8f-862d-31289e052e3e" width = "50%">
+<img src="https://github.com/user-attachments/assets/00cbf5d6-a9c3-40b4-86a7-304ffd98ede8" width = "50%"><img src="https://github.com/user-attachments/assets/17a0d34f-bafb-49af-bb43-3393b6a4612b" width = "50%"><img src="https://github.com/user-attachments/assets/6c882a7e-1cb3-410a-b13b-d1eb2bf8c972" width = "50%"><img src="https://github.com/user-attachments/assets/80d04e63-d43f-44d9-8f43-658526b46acf" width = "50%">
 
 <details>
   <summary>📹 Video</summary>
@@ -25,11 +24,12 @@ If you do not want this, you can remove it in the Applications style.css and add
   
   <summary>🖥️ Waybar</summary>
   
-  ![2025-01-04-145834_hyprshot](https://github.com/user-attachments/assets/7268adfe-a9c2-4a31-aa64-ae5d5d3891f5)
-  ![2025-01-04-145822_hyprshot](https://github.com/user-attachments/assets/6bd7f98e-1d4a-4c82-92ba-c74a63bbb908)
-  ![2025-01-04-145806_hyprshot](https://github.com/user-attachments/assets/e3e87cf1-9435-42b0-883c-029b50744011)
-  ![2025-01-04-145742_hyprshot](https://github.com/user-attachments/assets/45cab057-3bde-462c-97b9-c3c65c98e399)
-  ![2025-01-04-150103_hyprshot](https://github.com/user-attachments/assets/1d51032d-9a1e-4098-9c5f-791e77ee8818)
+![waybar1](https://github.com/user-attachments/assets/e0d43ca9-4649-4522-b275-a22ac9787974)
+![waybar6](https://github.com/user-attachments/assets/675610c3-f642-4375-a686-7a9e2fd5963e)
+![waybar4](https://github.com/user-attachments/assets/f3d35418-06d8-41cc-ac6a-74fd4793a720)
+![waybar3](https://github.com/user-attachments/assets/3d992b4e-059b-44ca-9a9b-1924c920f4bb)
+![waybar2](https://github.com/user-attachments/assets/6d27ec43-c290-41d2-be71-3b5aaca70b17)
+
   
   ## Overview
   This is my minimal Waybar setup for Hyprland, designed to be clean and efficient. It includes all the essential features I wanted in Waybar. For additional needs like volume control, I use `swaync`, which can be triggered from Waybar. 
@@ -87,7 +87,8 @@ If you do not want this, you can remove it in the Applications style.css and add
 
 <details>
   <summary>🔍 Wofi</summary>
-    <img src="https://github.com/user-attachments/assets/fc926214-960a-4ff6-a6b2-e87856b2d8c8" width = "30%"><img src="https://github.com/user-attachments/assets/f9f9235c-9b21-44d3-8b81-a05ee3c379c6" width = "30%"><img src="https://github.com/user-attachments/assets/9e60e74a-5fa0-4496-a66a-607f5d16ee13" width = "30%">
+    <img src="https://github.com/user-attachments/assets/af264f2f-21d7-4d97-b871-c804de2d6960" width = "35%"><img src="https://github.com/user-attachments/assets/9654604a-d0ef-4501-b00f-42691b1e585d" width = "35%"><img src="https://github.com/user-attachments/assets/2b0b79b4-61c7-41c4-a03e-79860f1d8401" width = "35%"><img src="https://github.com/user-attachments/assets/1ebd5410-5ceb-463f-a935-ce61da01f407" width = "35%">
+
 
   ## Configuration
 
@@ -118,8 +119,9 @@ In `~/.config/wofi/style.css`, update the hostname in the file path to your `pyw
 
 <details>
   <summary>🔔 Swaync</summary>
-  <img src="https://github.com/user-attachments/assets/f00c5396-a3ef-43b0-865b-19921f109f8e" width = "20%"><img src="https://github.com/user-attachments/assets/e360ef69-315a-49cb-a8b0-63fa00846ec4" width = "20%"><img src="https://github.com/user-attachments/assets/7c377580-eeed-4c87-8b57-46cb22269098" width = "20%">
-  
+  <img src="https://github.com/user-attachments/assets/c439c5ea-6999-44da-906d-7a89ba70b9d1" width = "20%"><img src="https://github.com/user-attachments/assets/d8882ef4-88d2-4729-bc80-ba98f53e6adc" width = "20%"><img src="https://github.com/user-attachments/assets/49c39456-45cc-4319-8651-97e7e708e14a" width = "20%"><img src="https://github.com/user-attachments/assets/b4a436b3-933c-4ee4-9733-9a6660d1fcf1" width = "20%">
+
+
   ## Configuration
   
   ### *How To Install*
@@ -176,8 +178,8 @@ In `~/.config/wofi/style.css`, update the hostname in the file path to your `pyw
 
 <details>
   <summary>📝 Nvim</summary>
-<img src="https://github.com/user-attachments/assets/cafccd0f-29a3-452d-b6d5-f4ad8851405d" width = "40%"><img src="https://github.com/user-attachments/assets/e726a46b-6e5c-47e3-a0a6-14b81a1139de" width = "40%"><img src="https://github.com/user-attachments/assets/0434d623-118d-4cba-8bf6-1326550a8010" width = "40%"><img src="https://github.com/user-attachments/assets/9a18a6e5-57e4-4aeb-aea0-5c2b9209182c" width = "40%">
-
+<img src="https://github.com/user-attachments/assets/7b91fb4d-dd86-4b82-bacf-282b599c821c" width = "30%"><img src="https://github.com/user-attachments/assets/59c9c199-bd3a-458c-b503-963c835342e7" width = "30%"><img src="https://github.com/user-attachments/assets/847cf2b4-d7c4-4c85-a58d-f9e854c9cd4c" width = "30%">
+  
 ## Overview
 
 - This Neovim "rice" is a simplified version of Lazyvim, created with custom Lua files. It’s lightweight and includes only what you need.
@@ -205,7 +207,8 @@ In `~/.config/wofi/style.css`, update the hostname in the file path to your `pyw
 
 <details>
   <summary>🚪 Wlogout</summary>
-  <img src="https://github.com/user-attachments/assets/414e835d-0dce-44ff-9442-8245b86ba592" width = "60%">
+  <img src="https://github.com/user-attachments/assets/023ab9ac-8a1a-4a3b-b846-af717be962e0" width = "40%"><img src="https://github.com/user-attachments/assets/356b7d77-d1be-41ca-8be4-3d2d59dbe686" width = "40%"><img src="https://github.com/user-attachments/assets/62b0df84-81b5-42ae-b992-5416cc71aeab" width = "40%"><img src="https://github.com/user-attachments/assets/c51200be-fcc8-4cc4-b928-8c0c74287c30" width = "40%">
+
 </details>
 
 
