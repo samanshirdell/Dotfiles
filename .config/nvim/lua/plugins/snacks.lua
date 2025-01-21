@@ -5,21 +5,6 @@ return {
     ---@type snacks.Config
     opts = {
         bigfile = { enabled = true },
-        dashboard = {
-            sections = {
-                {
-                    section = "terminal",
-                    cmd = "chafa ~/wallpapers/pywallpaper.jpg --format symbols --symbols vhalf --size 60x17 --stretch;",
-                    height = 17,
-                    padding = 1,
-                },
-                {
-                    pane = 2,
-                    { section = "keys", gap = 1, padding = 1 },
-                    { section = "startup" },
-                },
-            },
-        },
         indent = { enabled = true },
         input = { enabled = true },
         quickfile = { enabled = true },

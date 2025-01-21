@@ -19,6 +19,5 @@ main() {
     sed -i "s/^gradient_color_2 = .*/gradient_color_2 = '$color2'/" $cava_config
     pkill -USR2 cava || cava -p $cava_config
     source ~/.cache/wal/colors.sh && cp -r $wallpaper ~/wallpapers/pywallpaper.jpg 
-    rm -rf /home/eli/.cache/nvim/snacks
 }
 main

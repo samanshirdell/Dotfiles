@@ -81,7 +81,7 @@
         },
         "custom/pacman": {
             "format": "󰅢 {}",
-            "interval": 1800,   
+            "interval": 30,   
             "exec": "checkupdates | wc -l",
             "exec-if": "exit 0",
             "on-click": "kitty sh -c 'yay; sudo pacman -Syu; echo Done - Press enter to exit; read'; pkill -SIGRTMIN+8 waybar",
