@@ -12,13 +12,15 @@
 
 This countains My **Arch** Linux Dotfiles for a clean looking lightweight **Hyprland** settup.
 
-⚠️ All Configurations were meant to be used with `Pywal` ⚠️ 
-
-If you do not want this, you can remove it in the Applications style.css and add valid color values. Although I highly recomend `Pywal` Its Pretty cool!
-
 ***ENJOY!!***
 
 -E
+
+
+⚠️ All Configurations were meant to be used with `Pywal` ⚠️ 
+
+If you do not want this, **you can remove it in the given applications `style.css` and add valid color values.** Although I highly recomend `Pywal` Its Pretty cool!
+
 ## My Applications
 
 <details>
@@ -80,9 +82,6 @@ If you do not want this, you can remove it in the Applications style.css and add
   layerrule = ignorealpha 0.5, waybar
   ```
 
-  ### If you want to use `Pywal` with Waybar
-  
-  In `~/.config/waybar/style.css`, update the hostname in the file path to your `pywal` colors.
 </details>
 
 
@@ -101,6 +100,11 @@ If you do not want this, you can remove it in the Applications style.css and add
    ```
 3. **Copy config Files**
     - Copy `Dotfiles/.config/wofi` folder into `~/.config`
+4. **Launching Wofi**
+    - I launch wofi like this:
+      ```config
+      wofi --show drun -n
+      ```
 
 ### How to Add Blur to Wofi
 
@@ -112,10 +116,12 @@ layerrule = ignorezero, wofi
 layerrule = ignorealpha 0.5, wofi
 ```
 
-### If you want to use `Pywal` with Wofi
+### `Pywal` with Wofi
 
-In `~/.config/wofi/style.css`, update the hostname in the file path to your `pywal` colors.
-
+**If you want Pywal colors**
+- In `~/.config/wofi/style.css`, update the hostname in the file path to your `pywal` colors.
+**If you dont want Pywal colors**
+- You can remove the top line of your style.css and replace the colors at the top with your desired choice.
 </details>
 
 <details>
@@ -152,10 +158,6 @@ In `~/.config/wofi/style.css`, update the hostname in the file path to your `pyw
   layerrule = ignorealpha 0.5, swaync-notification-window
   ```
 
-  ### If you want to use `Pywal` with Swaync
-  
-  In `~/.config/Swaync/style.css`, update the hostname in the file path to your `pywal` colors.
-
 </details>
 
 <details>
@@ -183,15 +185,28 @@ In `~/.config/wofi/style.css`, update the hostname in the file path to your `pyw
   
 ## Overview
 
-- This Neovim "rice" is a simplified version of Lazyvim, created with custom Lua files. It’s lightweight and includes only what you need.
+- This Neovim "rice" is a simplified version of Lazyvim, created with custom Lua files. It’s lightweight and includes only what you need. Really i just installed lazy and configured only the pluggins I wanted.
 - It features:
-  - alpha-nvim
+  - Alpha-nvim
   - Pywal theme
   - Autocompletion
   - Lualine
+  - Tabline
+  - Glow
+  - Noice
+  - Mini-icons
+  - Snacks
+    - bigfile
+    - indent
+    - input
+    - quickfile
+    - scroll
+    - statuscolumn
+    - words
   - Neo-tree
   - Telescope
   - Treesitter
+  - Gitsigns
 
 ### *How To Install*
 1. **Install `Neovim`:**
@@ -199,9 +214,9 @@ In `~/.config/wofi/style.css`, update the hostname in the file path to your `pyw
     yay -S neovim
     ```
 2. **Copy Configuration File:**
-    - Copy `Dotfiles/.config/nvim` into `~/.config`
+    - Copy `Dotfiles/.config/nvim` into `~/.config/`
 
-4. **Run `Nvim`:**
+3. **Run `Nvim`:**
     - Start `nvim` and watch it install all necessary components.
 
 </details>
@@ -209,39 +224,51 @@ In `~/.config/wofi/style.css`, update the hostname in the file path to your `pyw
 <details>
   <summary>🚪 Wlogout</summary>
   <img src="https://github.com/user-attachments/assets/023ab9ac-8a1a-4a3b-b846-af717be962e0" width = "40%"><img src="https://github.com/user-attachments/assets/356b7d77-d1be-41ca-8be4-3d2d59dbe686" width = "40%"><img src="https://github.com/user-attachments/assets/62b0df84-81b5-42ae-b992-5416cc71aeab" width = "40%"><img src="https://github.com/user-attachments/assets/c51200be-fcc8-4cc4-b928-8c0c74287c30" width = "40%">
-
+  
+### *How To Install*
+1. **Install `wlogout`:**
+    ```bash
+    yay -S wlogout
+    ```
+2. **Copy Configuration File:**
+    - Copy `Dotfiles/.config/wlogout` into `~/.config/`
+3. **Set Keybind**
+    - If not already set make sure you set a keybind in hyprland.conf to launch wlogout.
 </details>
 
 
 <details>
   <summary>🖼️ Wallpaper Solution/Pywal</summary>
   
+
+https://github.com/user-attachments/assets/916a6edc-2d4f-4243-9b65-5ddad5272e45
+
+
 ## General Overview
-- The `wallpaper.sh` script in `Dotfiles/.config/hypr/` applies a wallpaper using `swww` and sets the `Pywal` theme. It also updates Kitty's color scheme with the selected colors.
-- The script randomly picks an image from a specified directory (though the selection process isn't fully systematic yet).
+- The `wallpaper.sh` script in `Dotfiles/.config/hypr/` applies a wallpaper using `swww` and sets the `Pywal` theme. It also updates Kitty's color scheme, Cava, nvim (if configured) and any other application using `pywal`.
+- The script Uses wofi to select to wallpaprs. I have not been able to optimize the wallpaper loading so it might load slow but it should work.
 
 ### Dependencies
 - `swww`
 - `pywal`
+- `wofi`
+- `fd`
 
 ### *How To Install*
-   - Install `swww`:
+- Install dependencies:
      ```bash
-     sudo pacman -S swww
+     yay -S swww pywal wofi fd
      ```
-   - Install `pywal`:
-     ```bash
-     yay -S pywal
-     ```
-
-2. **Copy Configuration Files:**
-   - Copy the `Dotfiles/.config/wal` folder to `~/.config/` to provide `pywal` with the necessary template for Hyprland.
+     
+3. **Copy Configuration Files:**
+   - Copy `Dotfiles/.config/wal` to `~/.config/` to provide `pywal` with the necessary template for Hyprland.
    - Copy `Dotfiles/.config/hypr/wallpaper.sh` to `~/.config/hypr/`.
+   - Copy `Dotfiles/.config/wofi` to `~/.config/`. ( Check Wofi tab for how to configure blur )
 
-3. **Set Up Keybinding:**
+4. **Set Up Keybinding:**
    - Bind the script to a key combination of your choice to easily change your wallpaper.
 
-4. **Add to Hyprland Configuration:**
+5. **Add to Hyprland Configuration:**
    - Make sure to add the following line to your `hyprland.conf`:
      ```bash
      exec-once = swww-daemon
