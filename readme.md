@@ -321,6 +321,15 @@ https://github.com/user-attachments/assets/916a6edc-2d4f-4243-9b65-5ddad5272e45
    - Or go [here](https://github.com/starship/starship?tab=readme-ov-file#step-2-set-up-your-shell-to-use-starship) to find what you need for your shell.
 </details>
 
+<details>
+  <summary>🎨 GTK Themes</summary>
+  
+  ### I use these GTK themes
+  
+  - Widget Theme: Material-dark
+  - Icon Theme: Qogir-dark
+</details>
+
 
 # Help
 
@@ -366,9 +375,7 @@ Instead of those colors, you can use whichever color is needed by the style.css 
 
 </details>
 
-# GTK THEME
-- Widget Theme: Material-dark
-- Icon Theme: Qogir-dark
+
 
 # Notes
 - If you want Cava to work with `Pywal`, it is already in the wallpaper.sh, but find the section needed and copy the config file I have into your `~/.config` directory.
