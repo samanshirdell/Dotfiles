@@ -12,7 +12,7 @@ https://github.com/elifouts/Dotfiles/blob/main/images/2025-01-23%2001-05-04.mkv
   
 </details>
 
-This countains My **Arch** Linux Dotfiles for a clean looking lightweight **Hyprland** settup.
+This contains My **Arch** Linux Dotfiles for a clean-looking lightweight **Hyprland** setup.
 
 ***ENJOY!!***
 
@@ -21,7 +21,7 @@ This countains My **Arch** Linux Dotfiles for a clean looking lightweight **Hypr
 
 ⚠️ All Configurations were meant to be used with `Pywal` ⚠️ 
 
-If you do not want this, **you can remove it in the given applications `style.css` and add valid color values.** Although I highly recomend `Pywal` Its Pretty cool!
+If you do not want this, **you can remove it in the given applications `style.css` and add valid color values.** Although I highly recommend `Pywal` It's Pretty cool!
 
 ## My Applications
 
@@ -101,7 +101,7 @@ If you do not want this, **you can remove it in the given applications `style.cs
     sudo pacman -S wofi
    ```
    
-2. Copy `Dotfiles/.config/wofi` folder into `~/.config`
+2. Copy the `Dotfiles/.config/wofi` folder into `~/.config`
 3. **Launching Wofi**
     - I launch wofi like this:
    
@@ -123,7 +123,7 @@ layerrule = ignorealpha 0.5, wofi
 
 **If you want Pywal colors**
 - In `~/.config/wofi/style.css`, update the hostname in the file path to your `pywal` colors.
-**If you dont want Pywal colors**
+**If you don't want Pywal colors**
 - You can remove the top line of your style.css and replace the colors at the top with your desired choice.
 </details>
 
@@ -137,7 +137,7 @@ layerrule = ignorealpha 0.5, wofi
   ### *How To Install*
   
 1. **Install [Swaync](https://github.com/ErikReider/SwayNotificationCenter)**
-2. Copy `Dotfiles/.config/swaync` folder into `~/.config`
+2. Copy the `Dotfiles/.config/swaync` folder into `~/.config`
 
   ### Dependencies for `Swaync`
   ```
@@ -186,7 +186,7 @@ layerrule = ignorealpha 0.5, wofi
   
 ## Overview
 
-- This Neovim "rice" is a simplified version of Lazyvim, created with custom Lua files. It’s lightweight and includes only what you need. Really i just installed lazy and configured only the pluggins I wanted.
+- This Neovim "rice" is a simplified version of Lazyvim, created with custom Lua files. It’s lightweight and includes only what you need. I just installed lazy and configured only the pluggins I wanted.
 - It features:
   - Alpha-nvim
   - Pywal theme
@@ -232,7 +232,7 @@ layerrule = ignorealpha 0.5, wofi
     yay -S wlogout
     ```
 2. Copy `Dotfiles/.config/wlogout` into `~/.config/`
-3. If not already set make sure you set a keybind in hyprland.conf to launch wlogout.
+3. If not already set make sure you set a key bind in hyprland.conf to launch wlogout.
 </details>
 
 
@@ -245,8 +245,8 @@ https://github.com/user-attachments/assets/916a6edc-2d4f-4243-9b65-5ddad5272e45
 
 ## General Overview
 
-- The `wallpaper.sh` script in `Dotfiles/.config/hypr/` applies a wallpaper using `swww` and sets the `Pywal` theme. It also updates Kitty's color scheme, Cava, nvim (if configured) and any other application using `pywal`.
-- The script Uses wofi to select to wallpaprs. I have not been able to optimize the wallpaper loading so it might load slow but it should work.
+- The `wallpaper.sh` script in `Dotfiles/.config/hypr/` applies a wallpaper using `swww` and sets the `Pywal` theme. It also updates Kitty's color scheme, Cava, nvim (if configured), and any other application using `pywal`.
+- The script uses Wofi to select wallpapers. I have not been able to optimize the wallpaper loading so it might load slowly but it should work.
 
 ### Dependencies
 
@@ -265,7 +265,7 @@ https://github.com/user-attachments/assets/916a6edc-2d4f-4243-9b65-5ddad5272e45
 1. **Copy Configuration Files:**
    - Copy `Dotfiles/.config/wal` to `~/.config/` to provide `pywal` with the necessary template for Hyprland.
    - Copy `Dotfiles/.config/hypr/wallpaper.sh` to `~/.config/hypr/`.
-   - Copy `Dotfiles/.config/wofi` to `~/.config/`. ( Check Wofi tab for how to configure blur )
+   - Copy `Dotfiles/.config/wofi` to `~/.config/`. ( Check the Wofi tab for how to configure blur )
 
 2. Bind the script to a key combination of your choice to easily change your wallpaper.
 
@@ -296,8 +296,8 @@ https://github.com/user-attachments/assets/916a6edc-2d4f-4243-9b65-5ddad5272e45
  ### *How To Install*
 1. **Install [Pywalfox](https://github.com/Frewacom/pywalfox)**
 2. Run `pywalfox install`
-3. Install Firefox add on for PywalFox
-4. Run `pywalfox update` in your terminal or add it to a script to update the `Firefox` theme after generateing `Pywal` colors.
+3. Install Firefox add-on for PywalFox
+4. Run `pywalfox update` in your terminal or add it to a script to update the `Firefox` theme after generating `Pywal` colors.
 
 
 </details>
@@ -312,7 +312,7 @@ https://github.com/user-attachments/assets/916a6edc-2d4f-4243-9b65-5ddad5272e45
 
  ### *How To Install*
 1. **Install [Starship](https://github.com/starship/starship?tab=readme-ov-file#-installation)**
-2. Copy `Dotfiles/.config/starship.toml` folder into `~/.config`
+2. Copy the `Dotfiles/.config/starship.toml` folder into `~/.config`
 3. Add this to your `.bashrc` file:
 
    ```bash
@@ -327,7 +327,7 @@ https://github.com/user-attachments/assets/916a6edc-2d4f-4243-9b65-5ddad5272e45
 <details>
   <summary>Apps Fuzzy or Blurry?</summary>
   
-  #### This may be because they need to be run with Wayland or are Electron Aplications
+  #### This may be because they need to be run with Wayland or are Electron applications
   
   - The solution I found is to add the following to `/usr/share/applications/{app}.desktop` after `exec=/app/executable/app`
   - Works on `Spotify` `Discord`
@@ -336,17 +336,39 @@ https://github.com/user-attachments/assets/916a6edc-2d4f-4243-9b65-5ddad5272e45
   --enable-features=UseOzonePlatform --ozone-platform=wayland --uri=%U
   ```
 
-  - ***NOTE*** This gets removed if the app is redownloaded! Im not sure how to make this a global thing. I have tried and failed. Help?
+  - ***NOTE*** This gets removed if the app is redownloaded! I'm not sure how to make this a global thing. I have tried and failed. Help?
+
+</details>
+
+<details>
+  <summary>Cant Find a file that is in .cache?</summary>
+
+That file is one of many that is created by `Pywal`. Alternatively, you can do one of the following:
+
+- create your own file which would look something like this:
+```
+@define-color background <Replace>;
+@define-color color0 <Replace>;
+@define-color color9 <Repace>;
+```
+Instead of those colors, you can use whichever color is needed by the style.css file.
+
+- create the colors manually in the style.css files you took those paths from. 
+```
+@define-color <ColorName> <Color>;
+```
+
+- Find the sections of that file that are calling the missing file, such as `$color2` or `@color2` and replace it with a valid value.
 
 </details>
 
 # Notes
-- About to start working on an eww dashboard so look out for that
-- I still need to add more on wlogout!!! ***sorry!*** 
+- If you want Cava to work with `Pywal`, it is already in the wallpaper.sh, but find the section needed and copy the config file I have into your `~/.config` directory.
+- Am about to start working on an eww dashboard so look out for that
 <details>
   <summary>📥 Download Suggestions</summary>
   
-  - This is everything I think is essential to have. At least for me. I would suggest doing your own research before blindly downloading everything here. This is here just so if I break my computer which we all know I will, I can remember what all I need/want!
+  - This is everything I think is essential to have. At least for me. I would suggest doing your own research before blindly downloading everything here. This is here just so if I break my computer which we all know I will, I can remember what I need/want!
     
   ```txt
   git
@@ -405,7 +427,7 @@ https://github.com/user-attachments/assets/916a6edc-2d4f-4243-9b65-5ddad5272e45
   2048
   terminal-mines mines-tui
   ```
-  Cool things you dont need
+  Cool things you don't need
   ```
   waypaper
   ranger
