@@ -1,16 +1,9 @@
 #!/usr/bin/env bash
-
 check() {
   command -v "$1" 1>/dev/null
 }
 
-notify() {
-  check notify-send && {
-    notify-send -a "Color Picker" "$@"
-    return
-  }
-  echo "$@"
-}
+
 
 loc="$HOME/.cache/colorpicker"
 [ -d "$loc" ] || mkdir -p "$loc"
@@ -57,4 +50,5 @@ prevColors=$(head -n $((limit - 1)) "$loc/colors")
 echo "$color" >"$loc/colors"
 echo "$prevColors" >>"$loc/colors"
 sed -i '/^$/d' "$loc/colors"
+source ~/.cache/wal/colors.sh && notify-send "Color Picker" "This color has been selected: $color" -i $wallpaper
 pkill -RTMIN+1 waybar
