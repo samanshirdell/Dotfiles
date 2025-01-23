@@ -23,7 +23,26 @@ This contains My **Arch** Linux Dotfiles for a clean-looking lightweight **Hyprl
 
 If you do not want this, **you can remove it in the given applications `style.css` and add valid color values.** Although I highly recommend `Pywal` It's Pretty cool!
 
+
+
+
+## Install
+
+<details>
+  <summary>Highly Experimental Install Script</summary>
+  
+  #### Please Note that this script is extremely experimental and might not work. Please make sure you know what you are doing lol I havent tested yet.
+
+  ```
+  cd && git clone https://github.com/elifouts/Dotfiles.git && cd ~/Dotfiles && chmod +x install.sh && ./install.sh
+  ```  
+</details>
+
+
 ## My Applications
+
+
+
 
 <details>
   
