@@ -366,6 +366,10 @@ Instead of those colors, you can use whichever color is needed by the style.css 
 
 </details>
 
+# GTK THEME
+- Widget Theme: Material-dark
+- Icon Theme: Qogir-dark
+
 # Notes
 - If you want Cava to work with `Pywal`, it is already in the wallpaper.sh, but find the section needed and copy the config file I have into your `~/.config` directory.
 - Am about to start working on an eww dashboard so look out for that
