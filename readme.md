@@ -322,7 +322,7 @@ https://github.com/user-attachments/assets/916a6edc-2d4f-4243-9b65-5ddad5272e45
 </details>
 
 
-# Hyprland Help
+# Help
 
 <details>
   <summary>Apps Fuzzy or Blurry?</summary>
@@ -342,6 +342,10 @@ https://github.com/user-attachments/assets/916a6edc-2d4f-4243-9b65-5ddad5272e45
 
 <details>
   <summary>Cant Find a file that is in .cache?</summary>
+
+### You may be looking for a file that looks something like this:
+
+`@import url('/home/eli/.cache/wal/colors-waybar.css');`
 
 That file is one of many that is created by `Pywal`. Alternatively, you can do one of the following:
 
