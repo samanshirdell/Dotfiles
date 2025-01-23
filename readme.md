@@ -449,6 +449,7 @@ Instead of those colors, you can use whichever color is needed by the style.css 
   powertop
   qogir-icon-theme
   fd
+  noto-fonts
   ```
   
   Fun to have
