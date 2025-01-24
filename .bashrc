@@ -18,5 +18,6 @@ alias spot="ncspot"
 alias untar="tar -xf"
 alias n="nvim"
 export NVM_DIR="$HOME/.nvm"
+export ELECTRON_OZONE_PLATFORM_HINT=wayland
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 PS1='[\u@\h \W]\$ '
