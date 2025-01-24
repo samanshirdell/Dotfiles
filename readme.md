@@ -439,17 +439,19 @@ Instead of those colors, you can use whichever color is needed by the style.css 
   networkmanager
   gvfs
   libnotify
-  pavucontrolfdf
+  pavucontrol
   pipewire-pulse
   nwg-look
   wofi
   s-tui
-  pywalfox
+  python-pywalfox
   auto-cpufreq
   powertop
   qogir-icon-theme
   fd
   noto-fonts
+  libreoffice-fresh
+  materia-dark-gtk
   ```
   
   Fun to have
