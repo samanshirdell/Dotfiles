@@ -1,4 +1,4 @@
-sudo chmod -R 755 $HOME
+sudo chmod -R 777 $HOME
 yay -S reflector rsync
 sudo reflector --country 'US' --latest 10 --sort rate --save /etc/pacman.d/mirrorlist
 yay -S pywal swww
