@@ -298,7 +298,7 @@ https://github.com/user-attachments/assets/916a6edc-2d4f-4243-9b65-5ddad5272e45
 </details>
 
 <details>
-  <summary>🦊 Pyfox</summary>
+  <summary>🦊 Pywalfox</summary>
   <img src="https://github.com/elifouts/Dotfiles/blob/main/images/fox1.png" width = "40%"><img src="https://github.com/elifouts/Dotfiles/blob/main/images/fox2.png" width = "40%"><img src="https://github.com/elifouts/Dotfiles/blob/main/images/fox3.png" width = "40%"><img src="https://github.com/elifouts/Dotfiles/blob/main/images/fox4.png" width = "40%">
 
   ## Overview
@@ -345,7 +345,7 @@ https://github.com/user-attachments/assets/916a6edc-2d4f-4243-9b65-5ddad5272e45
   
   ### I use these GTK themes
   
-  - Widget Theme: Material-dark
+  - Widget Theme: Materia-dark
   - Icon Theme: Qogir-dark
 </details>
 
