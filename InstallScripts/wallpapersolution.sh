@@ -1,3 +1,4 @@
+#!/bin/bash
 yay -S swww pywal fd wofi
 wal -i ~/Dotfiles/wallpapers/pywallpaper.jpg
 sudo cp -r -f ~/Dotfiles/.config/hypr/wallpaper.sh ~/.config/hypr/wallpaper.sh
