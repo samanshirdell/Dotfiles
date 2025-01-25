@@ -1,3 +1,4 @@
+#!/bin/bash
 yay -S hyprlock pywal
 wal -i ~/Dotfiles/wallpapers/pywallpaper.jpg
 sudo cp -r -f ~/Dotfiles/.config/wal ~/.config/
