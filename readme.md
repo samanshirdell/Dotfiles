@@ -19,10 +19,12 @@ If you do not want this, **you can remove it in the given applications `style.cs
 ## Install
 
 <details>
-  <summary>Highly Experimental Install Script</summary>
+  <summary>Somewhat Stable Install Script</summary>
   
-  #### Please Note that this script is extremely experimental and might not work. Please make sure you know what you are doing lol I havent tested yet.
-
+  #### Please Note that this script is experimental and might not work properly. Please make sure you know what you are doing lol.
+  
+- With this script you should be able to install everything together, or the applications and their configs individually.
+- Dont worry it only really installs what is needed unless you select the everything script.
   ```
   cd && git clone https://github.com/elifouts/Dotfiles.git && cd ~/Dotfiles/InstallScripts && chmod +x install.sh && ./install.sh
   ```  
