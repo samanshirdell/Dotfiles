@@ -25,8 +25,12 @@ If you do not want this, **you can remove it in the given applications `style.cs
   
 - With this script you should be able to install everything together, or the applications and their configs individually.
 - Dont worry it only really installs what is needed unless you select the everything script.
+
   ```
-  cd && git clone https://github.com/elifouts/Dotfiles.git && cd ~/Dotfiles/InstallScripts && chmod +x install.sh && ./install.sh
+  cd && git clone https://github.com/elifouts/Dotfiles.git
+  cd ~/Dotfiles/InstallScripts
+  chmod +x install.sh
+  ./install.sh
   ```  
 </details>
 
