@@ -26,7 +26,7 @@ return {
             },
             sections = {
                 lualine_a = {'mode'},
-                lualine_b = {},
+                lualine_b = {'branch'},
                 lualine_c = {},
                 lualine_x = {'filetype'},
                 lualine_y = {'progress'},
