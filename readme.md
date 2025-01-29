@@ -13,9 +13,6 @@ This contains My **Arch** Linux Dotfiles for a clean-looking lightweight **Hyprl
 
 If you do not want this, **you can remove it in the given applications `style.css` and add valid color values.** Although I highly recommend `Pywal` It's Pretty cool!
 
-
-
-
 ## Install
 
 <details>
@@ -45,10 +42,10 @@ If you do not want this, **you can remove it in the given applications `style.cs
   <summary>🚥 Waybar</summary>
   
 ![waybar1](https://github.com/elifouts/Dotfiles/blob/main/images/waybar1.png)
-![waybar1](https://github.com/elifouts/Dotfiles/blob/main/images/waybar6.png)
-![waybar1](https://github.com/elifouts/Dotfiles/blob/main/images/waybar4.png)
-![waybar1](https://github.com/elifouts/Dotfiles/blob/main/images/waybar3.png)
-![waybar1](https://github.com/elifouts/Dotfiles/blob/main/images/waybar2.png)
+![waybar2](https://github.com/elifouts/Dotfiles/blob/main/images/waybar6.png)
+![waybar3](https://github.com/elifouts/Dotfiles/blob/main/images/waybar4.png)
+![waybar4](https://github.com/elifouts/Dotfiles/blob/main/images/waybar3.png)
+![waybar5](https://github.com/elifouts/Dotfiles/blob/main/images/waybar2.png)
 
   
   ## Overview
