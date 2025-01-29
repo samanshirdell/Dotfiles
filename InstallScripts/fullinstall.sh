@@ -18,4 +18,4 @@ systemctl --user start pipewire.service pipewire-pulse.service
 sudo cp -f -r ~/Dotfiles/wallpapers ~/
 sudo cp -r -f ~/Dotfiles/.config/* ~/.config/
 sudo cp -r -f ~/Dotfiles/.bashrc ~/
-notify-send "Hello $USER" "Thank you for downloading my Dotfiles\n-EF"
+notify-send "Open Terminal with MOD+Q" "Hello $USER,\nThank you for downloading my Dotfiles\n-EF"
