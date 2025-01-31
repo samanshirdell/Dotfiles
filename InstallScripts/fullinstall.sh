@@ -7,12 +7,12 @@ wal -i ~/Dotfiles/wallpapers/walls/r82.jpg -n
 yay -S waybar swaync starship nerdfetch neovim python-pywalfox hypridle hyprpicker hyprshot hyprlock pyprland wlogout fd cava
 yay -S nerd-fonts
 yay -S nwg-look qogir-icon-theme materia-gtk-theme illogical-impulse-bibata-modern-classic-bin
-yay -S thunar gvfs tumbler eza
+yay -S thunar gvfs tumbler eza bpytop htop
 yay -S libreoffice-fresh
 yay -S spotify ncspot discord code
 yay -S blueman bluez
 systemctl enable bluetooth
-yay -S pipewire pipewire-pulse pipewire-alsa pipewire-jack pavucontrol
+yay -S pipewire pipewire-pulse pipewire-alsa pipewire-jack pavucontrol pulsemixer
 systemctl --user enable pipewire.service pipewire-pulse.service
 systemctl --user start pipewire.service pipewire-pulse.service
 sudo cp -f -r ~/Dotfiles/wallpapers ~/
