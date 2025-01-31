@@ -2,7 +2,7 @@
 eval "$(starship init bash)"
 clear && nerdfetch
 [[ $- != *i* ]] && return
-alias ls='ls --color=auto'
+alias lsd='eza --icons'
 alias pacup='sudo pacman -Rns $(pacman -Qdtq)'
 alias grep='grep --color=auto'
 alias pool='clear && asciiquarium'

@@ -4,7 +4,7 @@ yay -S reflector rsync
 sudo reflector --country 'US' --latest 10 --sort rate --save /etc/pacman.d/mirrorlist
 yay -S pywal swww
 wal -i ~/Dotfiles/wallpapers/walls/r82.jpg -n
-yay -S waybar swaync starship nerdfetch neovim python-pywalfox hypridle hyprpicker hyprshot hyprlock wlogout fd cava
+yay -S waybar swaync starship nerdfetch neovim python-pywalfox hypridle hyprpicker hyprshot hyprlock pyprland wlogout fd cava
 yay -S nerd-fonts
 yay -S nwg-look qogir-icon-theme materia-gtk-theme illogical-impulse-bibata-modern-classic-bin
 yay -S thunar gvfs tumbler eza
