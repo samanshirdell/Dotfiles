@@ -15,6 +15,8 @@ systemctl enable bluetooth
 yay -S pipewire pipewire-pulse pipewire-alsa pipewire-jack pavucontrol pulsemixer
 systemctl --user enable pipewire.service pipewire-pulse.service
 systemctl --user start pipewire.service pipewire-pulse.service
+yay -S gnome-network-displays gst-plugins-bad
+sudo systemctl enable avahi-daemon
 sudo cp -f -r ~/Dotfiles/wallpapers ~/
 sudo cp -r -f ~/Dotfiles/.config/* ~/.config/
 sudo cp -r -f ~/Dotfiles/.bashrc ~/
