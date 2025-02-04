@@ -2,7 +2,7 @@
 WALLPAPER_DIR="$HOME/wallpapers/walls"
 #I dont know what the fuck I am doing
 menu() {
-    find "${WALLPAPER_DIR}" -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" \) | awk '{print "img:"$0}'
+    find "${WALLPAPER_DIR}" -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" -o -iname "*.gif" \) | awk '{print "img:"$0}'
 }
 main() {
     choice=$(menu | wofi -c ~/.config/wofi/config1 -s ~/.config/wofi/style1.css --show dmenu --prompt "Select Wallpaper:" -n)

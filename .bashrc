@@ -1,6 +1,6 @@
 # ~/.bashrc
 eval "$(starship init bash)"
-clear && nerdfetch
+clear && myfetch -i ef -f -c 16 -C "  "
 [[ $- != *i* ]] && return
 alias lsd='eza --icons'
 alias pacup='sudo pacman -Rns $(pacman -Qdtq)'
