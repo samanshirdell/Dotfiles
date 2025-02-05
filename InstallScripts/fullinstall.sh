@@ -17,6 +17,8 @@ systemctl --user enable pipewire.service pipewire-pulse.service
 systemctl --user start pipewire.service pipewire-pulse.service
 yay -S gnome-network-displays gst-plugins-bad
 sudo systemctl enable avahi-daemon
+hyprpm add https://github.com/virtcode/hypr-dynamic-cursors
+hyprpm enable dynamic-cursors
 sudo cp -f -r ~/Dotfiles/wallpapers ~/
 sudo cp -r -f ~/Dotfiles/.config/* ~/.config/
 sudo cp -r -f ~/Dotfiles/.bashrc ~/
