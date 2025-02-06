@@ -397,55 +397,57 @@ Instead of those colors, you can use whichever color is needed by the style.css 
   
   - This is everything I think is essential to have. At least for me. I would suggest doing your own research before blindly downloading everything here. This is here just so if I break my computer which we all know I will, I can remember what I need/want!
     
-  ```txt
-  git
-  wlogout
-  nvim
-  zip unzip
-  pipewire
-  hyprpicker
-  hypridle
-  hyprlock
-  hyprshot
-  code
-  bpytop
-  nerdfetch
-  yay
-  wl-clipboard
-  wl-copy
-  nerd-fonts
-  starship
-  thunar
-  grim
-  slurp
-  gnome-network-displays
-  discord
-  Firefox
-  spotify ncspot
-  pacman-contrib
-  swaync
-  pywal
-  waybar
-  swww
-  blueman
-  bluez
-  networkmanager
-  gvfs
-  libnotify
-  pavucontrol
-  pipewire-pulse
-  nwg-look
-  wofi
-  s-tui
-  python-pywalfox
-  auto-cpufreq
-  powertop
-  qogir-icon-theme
-  fd
-  noto-fonts
-  libreoffice-fresh
-  materia-dark-gtk
-  ```
+```txt
+git
+wlogout
+nvim
+zip unzip
+pipewire
+hyprpicker
+hypridle
+hyprlock
+hyprshot
+code
+bpytop
+nerdfetch
+yay
+wl-clipboard
+wl-copy
+nerd-fonts
+starship
+thunar
+grim
+slurp
+gnome-network-displays
+discord
+Firefox
+spotify ncspot
+pacman-contrib
+swaync
+pywal
+waybar
+swww
+blueman
+bluez
+networkmanager
+gvfs
+libnotify
+pavucontrol
+pipewire-pulse
+nwg-look
+wofi
+s-tui
+python-pywalfox
+auto-cpufreq
+powertop
+qogir-icon-theme
+fd
+noto-fonts
+libreoffice-fresh
+materia-dark-gtk
+bottom
+
+```
   
   Fun to have
   
@@ -456,6 +458,10 @@ Instead of those colors, you can use whichever color is needed by the style.css 
   snake
   2048
   terminal-mines mines-tui
+  genact  
+  no-more-secrets
+  lolcat
+  howdoi
   ```
   Cool things you don't need
   ```
