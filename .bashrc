@@ -1,17 +1,17 @@
 # ~/.bashrc
 eval "$(starship init bash)"
-clear && myfetch -i ef -f -c 16 -C "  "
+clear && myfetch -c 8 -C " █"
 [[ $- != *i* ]] && return
 alias lsd='eza --icons'
 alias pacup='sudo pacman -Rns $(pacman -Qdtq)'
 alias grep='grep --color=auto'
 alias pool='clear && asciiquarium'
-alias f='clear && nerdfetch'
+alias f='clear && myfetch -i e -f -c 16 -C "  "'
 alias bye='sudo shutdown -h now'
 alias loop='sudo reboot'
 alias h='dbus-launch Hyprland'
 alias fonts='fc-list -f "%{family}\n"'
-alias tasks='bpytop'
+alias tasks='btm'
 alias Docs="cd ~/Documents && nvim"
 alias Settings="cd ~/.config/hypr && nvim"
 alias spot="ncspot"

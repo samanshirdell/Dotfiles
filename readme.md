@@ -445,8 +445,6 @@ fd
 noto-fonts
 libreoffice-fresh
 materia-dark-gtk
-bottom
-
 ```
   
   Fun to have
@@ -461,12 +459,13 @@ bottom
   genact  
   no-more-secrets
   lolcat
-  howdoi
   ```
   Cool things you don't need
   ```
   waypaper
   ranger
+  howdoi
+  bottom
   ```
 </details>
 
