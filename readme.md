@@ -16,7 +16,7 @@ If you do not want this, **you can remove it in the given applications `style.cs
 ## Install
 
 <details>
-  <summary>Somewhat Stable Install Script</summary>
+  <summary>Experimental Install Script</summary>
   
   #### Please Note that this script is experimental and might not work properly. Please make sure you know what you are doing lol.
   
