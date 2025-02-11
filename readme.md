@@ -9,8 +9,10 @@ This contains My **Arch** Linux Dotfiles for a clean-looking lightweight **Hyprl
 -Eli F.
 
 
-
-⚠️ All Configurations were meant to be used with `Pywal` ⚠️ 
+> [!WARNING]
+>  
+> All Configurations were meant to be used with `Pywal`
+>
 
 If you do not want this, **you can remove it in the given applications `style.css` and add valid color values.** Although I highly recommend `Pywal` It's Pretty cool!
 
