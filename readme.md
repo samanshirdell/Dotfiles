@@ -9,7 +9,7 @@ This contains My **Arch** Linux Dotfiles for a clean-looking lightweight **Hyprl
 -Eli F.
 
 
-> [!WARNING]
+> [!WARNING] 
 >  
 > All Configurations were meant to be used with `Pywal`
 >
