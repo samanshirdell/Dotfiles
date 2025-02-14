@@ -345,14 +345,14 @@ https://github.com/user-attachments/assets/916a6edc-2d4f-4243-9b65-5ddad5272e45
   - Icon Theme: Qogir-dark
 </details>
 
-# Keybinds
+## Keybinds
 
 <details>
   <summary></summary>
   
 </details>
 
-# Help
+## Help
 
 <details>
   <summary>Apps Fuzzy or Blurry?</summary>
@@ -398,7 +398,7 @@ Instead of those colors, you can use whichever color is needed by the style.css 
 
 
 
-# Notes
+## Notes
 - If you want Cava to work with `Pywal`, it is already in the wallpaper.sh, but find the section needed and copy the config file I have into your `~/.config` directory.
 - Am about to start working on an eww dashboard so look out for that
 <details>
