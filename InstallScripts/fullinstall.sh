@@ -7,7 +7,7 @@ wal -i ~/Dotfiles/wallpapers/walls/r82.jpg -n
 yay -S waybar swaync starship myfetch neovim python-pywalfox hypridle hyprpicker hyprshot hyprlock pyprland wlogout fd cava brightnessctl clock-rs-git
 yay -S nerd-fonts
 yay -S nwg-look qogir-icon-theme materia-gtk-theme illogical-impulse-bibata-modern-classic-bin
-yay -S thunar gvfs tumbler eza bottom htop imagemagick
+yay -S thunar gvfs tumbler eza bottom htop
 yay -S libreoffice-fresh
 yay -S spotify ncspot discord code
 yay -S blueman bluez
