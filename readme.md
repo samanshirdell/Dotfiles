@@ -347,10 +347,6 @@ https://github.com/user-attachments/assets/916a6edc-2d4f-4243-9b65-5ddad5272e45
 
 ## Keybinds
 
-> [!NOTE]
-> 
-> All keybinds can be changed in `Hyprland.conf`
-
 `Mod+Q` - Open Terminal
 
 `Mod+R` - Open App Launcher (Wofi)
@@ -375,7 +371,10 @@ https://github.com/user-attachments/assets/916a6edc-2d4f-4243-9b65-5ddad5272e45
 
 `Alt+W` - Wallpaper Selector (Wofi)
 
-
+> [!Tip]
+> This isnt every Keybind. Just some highlighted ones.
+> 
+> More can be found and changed in `~/.confing/hypr/hyprland.conf`
 
 ## Help
 
