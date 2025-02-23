@@ -403,7 +403,7 @@ https://github.com/user-attachments/assets/916a6edc-2d4f-4243-9b65-5ddad5272e45
 
 `@import url('/home/eli/.cache/wal/colors-waybar.css');`
 
-That file is one of many that is created by `Pywal`. Alternatively, you can do one of the following:
+That file is one of many that is created by `Pywal`. Try replacing eli with your $USER and see if that works. Alternatively, you can do one of the following:
 
 - create your own file which would look something like this:
 ```
