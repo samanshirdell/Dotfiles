@@ -1,15 +1,6 @@
-<div align=center>
-  <img src="https://github.com/user-attachments/assets/5b6ef498-fe35-4a84-8d04-69e294936d75" width = "100%">
-</div>
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=40&letterSpacing=tiny&duration=2000&pause=3000&color=F7F7F7&center=true&vCenter=true&width=435&lines=Eli's+Dotfiles)](https://git.io/typing-svg)
 
-
-<details>
-  
-  <summary>🏞️ Gallery</summary>
-  
 <img src="https://github.com/elifouts/Dotfiles/blob/main/images/rice7.png" width = "50%"><img src="https://github.com/elifouts/Dotfiles/blob/main/images/rice1.png" width = "50%"><img src="https://github.com/elifouts/Dotfiles/blob/main/images/rice4.png" width = "50%"><img src="https://github.com/elifouts/Dotfiles/blob/main/images/rice5.png" width = "50%"><img src="https://github.com/elifouts/Dotfiles/blob/main/images/rice6.png" width = "50%"><img src="https://github.com/elifouts/Dotfiles/blob/main/images/rice3.png" width = "50%">
-
-</details>
 
 This contains My **Arch** Linux Dotfiles for a clean-looking lightweight **Hyprland** setup.
 
