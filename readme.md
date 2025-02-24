@@ -16,12 +16,13 @@ This contains My **Arch** Linux Dotfiles for a clean-looking lightweight **Hyprl
 
 If you do not want this, **you can remove it in the given applications `style.css` and add valid color values.** Although I highly recommend `Pywal` It's Pretty cool!
 
-## Install 
+# Install 
 
+> [!CAUTION]
+> 
+> This script is experimental and might not work properly. Please make sure you know what you are doing ***Please Please Please***
 <details>
-  <summary>Experimental Install Script</summary>
-  
-  #### Please Note that this script is experimental and might not work properly. Please make sure you know what you are doing lol.
+  <summary>Arch Install Script</summary>
   
 - With this script you should be able to install everything together, or the applications and their configs individually.
 - Dont worry it only really installs what is needed unless you select the everything script.
