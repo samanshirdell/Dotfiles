@@ -26,9 +26,9 @@ if [[ $install_choice == "a" ]]; then
     hyprpm add https://github.com/virtcode/hypr-dynamic-cursors
     hyprpm enable dynamic-cursors
     # Copy files
-    sudo cp -f -r ~/Dotfiles/wallpapers ~/
-    sudo cp -r -f ~/Dotfiles/.config/* ~/.config/
-    sudo cp -r -f ~/Dotfiles/.bashrc ~/
+    sudo cp -a ~/Dotfiles/wallpapers ~/
+    sudo cp -a ~/Dotfiles/.config/* ~/.config/
+    sudo cp -a ~/Dotfiles/.bashrc ~/
     notify-send "Open Terminal with MOD+Q" "Hello $USER,\nThank you for downloading my Dotfiles\n-EF"
 # Manual install section
 elif [[ $install_choice == "m" ]]; then
@@ -45,6 +45,7 @@ elif [[ $install_choice == "m" ]]; then
         choice=${choice:-y}  # Default to 'y' if empty
         if [[ "$choice" == "y" ]]; then
             yay -S $package
+            clear
         fi
     done
     wal -i ~/Dotfiles/wallpapers/pywallpaper.jpg -n
@@ -73,8 +74,8 @@ elif [[ $install_choice == "m" ]]; then
         hyprpm enable dynamic-cursors
     fi
     # Copy files
-    sudo cp -f -r ~/Dotfiles/wallpapers ~/
-    sudo cp -r -f ~/Dotfiles/.config/* ~/.config/
-    sudo cp -r -f ~/Dotfiles/.bashrc ~/
+    sudo cp -a ~/Dotfiles/wallpapers ~/
+    sudo cp -a ~/Dotfiles/.config/* ~/.config/
+    sudo cp -a ~/Dotfiles/.bashrc ~/
     notify-send "Open Terminal with MOD+Q" "Hello $USER,\nThank you for downloading my Dotfiles\n-EF"
 fi
