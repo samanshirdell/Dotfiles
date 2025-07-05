@@ -42,6 +42,7 @@ check hyprpicker || {
 }
 killall -q hyprpicker
 color=$(hyprpicker | grep -v "^\[ERR\]")
+[[ -n $color ]] || exit
 
 check wl-copy && {
   echo "$color" | sed -z 's/\n//g' | wl-copy
