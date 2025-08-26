@@ -18,7 +18,6 @@ limit=10
 
 [[ $# -eq 1 && $1 = "-j" ]] && {
   text="$(head -n 1 "$loc/colors")"
-  text=${text:-#FFFFFF} #if we start for the first time ever the file is empty and thus waybar will throw an error and not display the colorpicker. here is a fallback for that
 
   mapfile -t allcolors < <(tail -n +2 "$loc/colors")
   # allcolors=($(tail -n +2 "$loc/colors"))
@@ -41,22 +40,15 @@ check hyprpicker || {
   exit
 }
 killall -q hyprpicker
-color=$(hyprpicker | grep -v "^\[ERR\]")
-[[ -n $color ]] || exit
+color=$(hyprpicker)
 
 check wl-copy && {
   echo "$color" | sed -z 's/\n//g' | wl-copy
 }
 
 prevColors=$(head -n $((limit - 1)) "$loc/colors")
-
-source ~/.cache/wal/colors.sh && color_preview=$wallpaper
-check magick && {
-  magick -size 64x64 canvas:"$color" "$loc/color_preview.png"
-  color_preview="$loc/color_preview.png"
-}
 echo "$color" >"$loc/colors"
 echo "$prevColors" >>"$loc/colors"
 sed -i '/^$/d' "$loc/colors"
-notify-send "Color Picker" "This color has been selected: $color" -i $color_preview
+source ~/.cache/wal/colors.sh && notify-send "Color Picker" "This color has been selected: $color" -i $wallpaper
 pkill -RTMIN+1 waybar
