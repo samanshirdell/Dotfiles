@@ -350,15 +350,17 @@ layerrule = ignorealpha 0.5, wofi
 
 ## Keybinds
 
-`Mod+Q` - Open Terminal
+`Mod+RETURN` - Open Terminal
 
-`Mod+R` - Open App Launcher (Wofi)
+`Mod+W` - Open App Launcher (Wofi)
 
 `Mod+M` - Quit Hyprland
  
-`Mod+B` - Close
+`Mod+Q` - Close
 
-`Mod+F` - Fullscreen
+`Mod+F` - Fullscreen 1
+
+`Mod SHIFT, F - Fullscreen
 
 `Mod+V` - Popout
 
