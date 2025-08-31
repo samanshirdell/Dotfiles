@@ -4,18 +4,13 @@
         "reload_style_on_change": true,
         "modules-left": ["custom/notification","clock","custom/pacman","tray"],
         "modules-center": ["hyprland/workspaces"],
-        "modules-right": ["group/expand","bluetooth","network","battery"],
+        "modules-right": ["group/expand","wireplumber","bluetooth","network","battery"],
 
 
         "hyprland/workspaces": {
-            "format": "{icon}",
-            "format-icons": {
-                "active": "",
-                "default": "",
-                "empty": ""
-            },
+            "format": "{name}",
             "persistent-workspaces": {
-                "*": [ 1,2,3,4,5 ]
+                "*": [ 1,2,3,4,5,6 ]
             }
         },
         "custom/notification": {
@@ -24,6 +19,7 @@
             "on-click": "swaync-client -t -sw",
             "escape": true
         },
+
         "clock": {
             "format": "{:%I:%M:%S %p} ",
             "interval": 1,   
@@ -79,6 +75,16 @@
             "󰁹"
             ],
         },
+
+        "wireplumber": {
+            "format": "{volume}% {icon}",
+            "format-muted": "",
+            "format-icons": {
+                "default": ["", ""]
+            },
+            "scroll-step": 5,
+            "on-click": "pwvucontrol"
+        },
         "custom/pacman": {
             "format": "󰅢 {}",
             "interval": 30,   
@@ -86,7 +92,7 @@
             "exec-if": "exit 0",
             "on-click": "kitty sh -c 'yay -Syu; echo Done - Press enter to exit; read'; pkill -SIGRTMIN+8 waybar",
             "signal": 8,
-            "tooltip": false,
+            "tooltip": false
         },
         "custom/expand": {
             "format": "",
@@ -122,11 +128,11 @@
         },
         "temperature": {
             "critical-threshold": 80,
-            "format": "",
+            "format": ""
         },
         "tray": {
             "icon-size": 14,
             "spacing": 10
-        },
+        }
 } 
 

@@ -2,31 +2,32 @@
 
 * {
     font-size:15px;
-    font-family: "CodeNewRoman Nerd Font Propo";
+    font-family: "Code New Roman Nerd Font Propo";
 }
 window#waybar{
     all:unset;
 }
 .modules-left {
-    padding:7px;
-    margin:10 0 5 10;
+    padding:6px;
+    margin:2 0 5 3;
     border-radius:10px;
     background: alpha(@background,.6);
     box-shadow: 0px 0px 2px rgba(0, 0, 0, .6);
 }
 .modules-center {
-    padding:7px;
-    margin:10 0 5 0;
+    padding:5px;
+    margin:2 0 5 0;
     border-radius:10px;
     background: alpha(@background,.6);
     box-shadow: 0px 0px 2px rgba(0, 0, 0, .6);
 }
 .modules-right {
-    padding:7px;
-    margin: 10 10 5 0;
+    padding:8px;
+    margin: 2 3 5 3;
     border-radius:10px;
     background: alpha(@background,.6);
     box-shadow: 0px 0px 2px rgba(0, 0, 0, .6);
+
 }
 tooltip {
     background:@background;
@@ -39,71 +40,72 @@ tooltip {
 #custom-notification {
     padding: 0px 5px;
     transition: all .3s ease;
-    color:@color7;
+    color:#fff;
 }
 #clock{
     padding: 0px 5px;
-    color:@color7;
+    color:#fff;
     transition: all .3s ease;
 }
 #custom-pacman{
     padding: 0px 5px;
     transition: all .3s ease;
-    color:@color7;
+    color:#fff;
 
 }
 #workspaces {
-    padding: 0px 5px;
+    padding: 0px 2px;
 }
 #workspaces button {
-    all:unset;
-    padding: 0px 5px;
-    color: alpha(@color9,.4);
-    transition: all .2s ease;
+    background-color: #351e0b;   /* رنگ پایه */
+    color: #ffffff;              /* رنگ متن */
+    border-radius: 5px;          /* گوشه‌های گرد */
+    padding: 5px 10px;           /* فاصله داخل مستطیل */
+    margin: 2px;
+    transition: all 0.2s ease;
 }
 #workspaces button:hover {
-    color:rgba(0,0,0,0);
+    color:@color7;
     border: none;
     text-shadow: 0px 0px 1.5px rgba(0, 0, 0, .5);
     transition: all 1s ease;
 }
 #workspaces button.active {
-    color: @color9;
-    border: none;
-    text-shadow: 0px 0px 2px rgba(0, 0, 0, .5);
+    background-color: #844029;   /* رنگ وقتی فعال هست */
+    color: #ffffff;
 }
 #workspaces button.empty {
-    color: rgba(0,0,0,0);
+    color: #a4a4a4;
     border: none;
     text-shadow: 0px 0px 1.5px rgba(0, 0, 0, .2);
 }
 #workspaces button.empty:hover {
-    color: rgba(0,0,0,0);
+    color: @color7;
     border: none;
     text-shadow: 0px 0px 1.5px rgba(0, 0, 0, .5);
     transition: all 1s ease;
 }
 #workspaces button.empty.active {
-    color: @color9;
+    color: #dfdfdf;
     border: none;
     text-shadow: 0px 0px 2px rgba(0, 0, 0, .5);
 }
 #bluetooth{
     padding: 0px 5px;
     transition: all .3s ease;
-    color:@color7;
+    color: #fff;
 
 }
 #network{
     padding: 0px 5px;
     transition: all .3s ease;
-    color:@color7;
+    color:#fff;
 
 }
 #battery{
     padding: 0px 5px;
     transition: all .3s ease;
-    color:@color7;
+    color:#fff;
 
 
 }
@@ -123,13 +125,25 @@ tooltip {
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
+
+#wireplumber {
+    padding: 0px 5px;
+    transition: all .3s ease;
+    color: #fff;
+}
+
+#wireplumber:hover {
+    color: @color9;
+    transition: all .3s ease;
+}
+
 #group-expand{
     padding: 0px 5px;
     transition: all .3s ease; 
 }
 #custom-expand{
     padding: 0px 5px;
-    color:alpha(@foreground,.2);
+    color: #fff;
     text-shadow: 0px 0px 2px rgba(0, 0, 0, .7);
     transition: all .3s ease; 
 }
@@ -143,7 +157,7 @@ tooltip {
 #cpu,#memory,#temperature{
     padding: 0px 5px;
     transition: all .3s ease; 
-    color:@color7;
+    color:#fff;
 
 }
 #custom-endpoint{
